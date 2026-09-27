@@ -194,7 +194,12 @@ button {
   border-bottom: 2.5px solid var(--color-gold);
   box-shadow: 0 4px 22px rgba(14, 47, 32, 0.22);
   z-index: 1000;
-  transition: var(--transition-smooth);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-image 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  will-change: transform;
+}
+
+.navbar.nav-hidden {
+  transform: translateY(-100%);
 }
 
 .navbar.scrolled {
@@ -3042,6 +3047,74 @@ button {
   transform: scale(1.03);
 }
 
+/* Dedicated Portrait Photo Showcase (Vertical Orientation) */
+.spacious-portrait-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.spacious-portrait-frame {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 2.5px solid var(--color-gold);
+  background: #061910;
+  box-shadow: 0 16px 45px rgba(14, 47, 32, 0.22), 0 0 30px rgba(201, 160, 80, 0.25);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacious-portrait-frame .portrait-img-box {
+  width: 100%;
+  aspect-ratio: 970 / 1279;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.spacious-portrait-frame img.activity-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.flight-portrait-frame {
+  max-width: 520px;
+  border: 2.5px solid var(--color-gold);
+  box-shadow: 0 20px 50px rgba(14, 47, 32, 0.25), 0 0 35px rgba(201, 160, 80, 0.3);
+}
+
+.spacious-portrait-frame:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-gold-bright);
+  box-shadow: 0 24px 60px rgba(14, 47, 32, 0.3), 0 0 45px rgba(201, 160, 80, 0.35);
+}
+
+.spacious-portrait-frame:hover img.activity-img {
+  transform: scale(1.02);
+}
+
+.spacious-portrait-frame .portrait-caption-bar {
+  position: relative;
+  background: linear-gradient(135deg, rgba(14, 47, 32, 0.98), rgba(6, 25, 16, 0.98));
+  border-top: 1.5px solid rgba(201, 160, 80, 0.35);
+  padding: 1.15rem 1.25rem 1.25rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
 /* Photo Caption Bar */
 .photo-caption-bar {
   position: absolute;
@@ -3364,6 +3437,13 @@ video.activity-video-player {
   }
   .flight-panoramic-frame {
     height: 310px;
+  }
+  .spacious-portrait-showcase {
+    margin-top: 0.85rem;
+  }
+  .spacious-portrait-frame {
+    max-width: 100%;
+    border-radius: var(--radius-md);
   }
   .activity-video-showcase {
     padding: 1.35rem 1rem;

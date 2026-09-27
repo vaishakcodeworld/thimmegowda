@@ -50,6 +50,7 @@ const translations = {
     slideCaption6: "Canara Bank Centenary Rural Development Trust (CBRSETI) Felicitation",
     slideCaption7: "Bhusiri Development Foundation — World Environment Day Krishi Felicitation",
     slideCaption8: "FC Krishi Technology Pavilion — Udyami Vokkaliga Honor with Farmers Team",
+    slideCaption9: "State Felicitation by Paramapoojya Sri Sri Sri Nirmalanandanatha Mahaswamiji with Fresh Farm Produce Basket",
     inspirationTitle: "An Inspiration for All Farmers",
     inspirationDesc: "Through 27 years of tireless scientific innovation and selfless mentorship, Dr. Thimmegowda (Santhosh) stands as an inspiring beacon for the entire agricultural fraternity.",
     award1Title: "Doctorate Degree Honor",
@@ -166,6 +167,10 @@ const translations = {
     krishiChakraBadge: "Zero-Waste Circular Economy",
     krishiChakraTitle: "Mushroom Cultivation Circular Flow: 'ಅಣಬೆ ಬೇಸಾಯ ಕೃಷಿ ಚಕ್ರ'",
     krishiChakraDesc: "The complete 9-stage circular bio-flow: Paddy crop ➔ Straw waste ➔ Mushroom spawning ➔ Mushroom harvest ➔ Direct retail marketing ➔ Value addition ➔ Spent substrate as livestock & poultry feed ➔ Organic waste composting ➔ Vermicompost enriching soil.",
+    chakraPoint1: "<strong>1. Paddy Crop & Dry Residual Straw:</strong> Productive collection and utilization of dry paddy straw harvested from agricultural fields.",
+    chakraPoint2: "<strong>2. Spawning, Harvesting & Value Addition:</strong> Scientific cultivation and harvesting of organic mushrooms with direct retail via Reliance Fresh and online supply chains.",
+    chakraPoint3: "<strong>3. Livestock/Poultry Feed & Vermicompost:</strong> Spent moisture substrate utilized as nutritious feed for sheep and poultry, then re-converted into premium vermicompost returning organic vitality back to the soil!",
+    chakraPoint4: "<strong>4. Integrated Zero-Waste Bio-Recycling & Soil Health:</strong> Moving beyond conventional farming under the guidance of agricultural scientists, officers, and ODP organisation, scientifically trained to integrate mushroom, sheep, poultry, apiculture (bees), azolla, and vermicompost under one roof. Value-adding all produce to establish direct consumer markets. Keeping future soil health and human wellness at heart, all farm biomass wastes are segregated from plastics, recycled harmoniously in an eco-friendly bio-cycle, and restored back to mother earth.",
     videoBadge: "Television Broadcast Feature • 10TV Kannada News",
     videoTitle: "10TV News Special Report: Agricultural Revolution by Dr. Santhosh Thimmegowda",
     videoDesc: "Watch the authentic television broadcast documentary featuring Dr. Santhosh Thimmegowda, his family, and their thriving integrated farm in Maradipura, Mandya.",
@@ -244,12 +249,13 @@ const translations = {
     act2HlDesc: "Hand-carved lifelike portrait of Former Prime Minister and presentation of organic felicitation basket to Former CM H.D. Kumaraswamy.",
     act2ImgCap1: "Intricate lifelike vegetable carving portrait of Former Prime Minister Shri H.D. Deve Gowda.",
     act2ImgCap2: "Exquisite organic vegetable felicitation basket presented to Former CM Shri H.D. Kumaraswamy.",
+    act2ImgCap3: "State Stage Felicitation: Honoring Former Prime Minister Shri H.D. Deve Gowda on stage with Mysore Peta and floral garland.",
     act3Badge: "Farmer Solidarity & FPO Secretary Service",
     act3Title: "Organizing Farmers into FPO Groups & Direct Farm-to-Consumer Marketing",
     act3Desc: "Serving with integrity as the Secretary of Farmer Producer Organizations (FPO), Dr. Thimmegowda has organized small and marginal farmers into empowered producer groups. Eliminating exploitative middlemen entirely, he created direct sales channels with Reliance Retail Limited and consumer platforms, guaranteeing fair remunerative prices and sustainable financial resilience for hundreds of farming families.",
     act3HlTitle: "Integrated Organic Horticulture & Direct Consumer Access",
     act3HlDesc: "Tricolor harvest arrangements, organic papaya plantations, and direct profitable market links for rural growers.",
-    act3ImgCap1: "Tricolor national flag art crafted from grains & vegetables, alongside thriving organic papaya orchards.",
+    act3ImgCap1: "Top: Tricolor national flag crafted from vegetables • Bottom: Dr. Santhosh in his organic papaya farm.",
     act4Badge: "Green Mission & Mandya Farmer Ambassador",
     act4Title: "Gifting Saplings at Gatherings & 'A Tree for Every Celebration' Mission",
     act4Desc: "At any formal meeting, cultural program, or celebration, Dr. Thimmegowda honors guests by gifting live tree saplings instead of ephemeral gifts. Under his personal movement 'A Tree for Every Celebration' (ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ), he plants and personally nurtures trees in public spaces and roadsides on birthdays and anniversaries. Across Karnataka, he serves as a proud goodwill ambassador voicing the interests and innovations of Mandya district farmers.",
@@ -267,7 +273,7 @@ const translations = {
     act6Desc: "To rejuvenate the mind and discover cutting-edge agricultural advancements, Dr. Thimmegowda embarks on annual study tours once or twice a year with his family and fellow farmers. Flying across diverse states, they explore agricultural research stations, historic monuments, and natural wonders—bringing back fresh scientific insights and cherished family memories that revitalize farming zeal.",
     act6HlTitle: "A Farmer's Dreams Flying Beyond Horizons",
     act6HlDesc: "Cherished moments boarding flights with family and fellow farmers, expanding horizons and discovering new agricultural paradigms.",
-    act6ImgCap1: "Warm family moments boarding an IndiGo aircraft on the airport tarmac during their annual study tour.",
+    act6ImgCap1: "Top: Boarding IndiGo aircraft with family • Bottom: Memorable family moments at airport terminal.",
     gratitudeBadge: "Heartfelt Gratitude • ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು",
     gratitudeTitle: "Deepest Gratitude to Everyone Who Read Our Story & Continues to Support Us",
     gratitudeQuote: "\"Heartfelt gratitude to each one of you who took the time to read our story and understand our agricultural journey, and our deepest thanks to everyone encouraging and standing with us. Thank you 🎉💚 🥰 🙏\"",
@@ -349,6 +355,7 @@ const translations = {
     slideCaption6: "ಕೆನರಾ ಬ್ಯಾಂಕ್ ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಟ್ರಸ್ಟ್ (CBRSETI) ಸನ್ಮಾನ",
     slideCaption7: "ಭೂಸಿರಿ ಡೆವಲಪ್‌ಮೆಂಟ್ ಫೌಂಡೇಶನ್ — ಕೃಷಿ ಪುರಸ್ಕಾರ ಸನ್ಮಾನ",
     slideCaption8: "ಎಫ್.ಸಿ. ಕೃಷಿ ತಂತ್ರಜ್ಞಾನ ವಲಯ — ರೈತ ಮುಖಂಡರೊಂದಿಗೆ ಗೌರವ",
+    slideCaption9: "ಪೂಜ್ಯ ಶ್ರೀ ಶ್ರೀ ಶ್ರೀ ನಿರ್ಮಲಾನಂದನಾಥ ಮಹಾಸ್ವಾಮೀಜಿ ಅವರಿಂದ ವೇದಿಕೆ ಸನ್ಮಾನ ಹಾಗೂ ಹಣ್ಣು-ತರಕಾರಿ ಬುಟ್ಟಿ ಸಮರ್ಪಣೆ",
     inspirationTitle: "ಸಾವಿರಾರು ರೈತರಿಗೆ ಸ್ಪೂರ್ತಿಯ ಚಿಲುಮೆ",
     inspirationDesc: "ತಮ್ಮ ೨೭ ವರ್ಷಗಳ ಸತತ ಕೃಷಿ ನಾವೀನ್ಯತೆ ಹಾಗೂ ನಿಸ್ವಾರ್ಥ ತರಬೇತಿಯ ಮೂಲಕ ಡಾ. ತಿಮ್ಮೇಗೌಡ (ಸಂತೋಷ್) ಅವರು ಸಮಸ್ತ ಕೃಷಿ ಸಮುದಾಯಕ್ಕೆ ಆದರ್ಶಪ್ರಾಯರಾಗಿದ್ದಾರೆ.",
     award1Title: "ಡಾಕ್ಟರೇಟ್ ಪದವಿ ಪುರಸ್ಕಾರ",
@@ -465,6 +472,10 @@ const translations = {
     krishiChakraBadge: "ಶೂನ್ಯ ತ್ಯಾಜ್ಯ ಮರುಬಳಕೆ ಮಾದರಿ",
     krishiChakraTitle: "ಅಣಬೆ ಬೇಸಾಯ ಕೃಷಿ ಚಕ್ರ — Mushroom Cultivation Recycling",
     krishiChakraDesc: "ಭತ್ತದ ಬೆಳೆ ➔ ಒಣ ತ್ಯಾಜ್ಯ ಹುಲ್ಲು ➔ ಅಣಬೆ ಬೀಜ ಬಿತ್ತನೆ ➔ ಅಣಬೆ ಕಟಾವು ➔ ನೇರ ಮಾರಾಟ ➔ ಮೌಲ್ಯವರ್ಧನೆ ➔ ತ್ಯಾಜ್ಯವನ್ನು ಪ್ರಾಣಿ-ಪಕ್ಷಿಗಳಿಗೆ ಆಹಾರ ➔ ಕಾಂಪೋಸ್ಟ್ ಗೊಬ್ಬರ ತಯಾರಿ ➔ ವರ್ಮಿ ಕಾಂಪೋಸ್ಟ್ ಮಣ್ಣಿಗೆ ಮರುಬಳಕೆ.",
+    chakraPoint1: "<strong>೧. ಭತ್ತದ ಬೆಳೆ & ಒಣ ತ್ಯಾಜ್ಯ ಹುಲ್ಲು:</strong> ಹೊಲದಲ್ಲಿ ಬೆಳೆದ ಭತ್ತದ ಕಟಾವಿನ ನಂತರ ಉಳಿಯುವ ಒಣ ಹುಲ್ಲಿನ ಸದ್ಬಳಕೆ.",
+    chakraPoint2: "<strong>೨. ಬಿತ್ತನೆ, ಕಟಾವು & ಮೌಲ್ಯವರ್ಧನೆ:</strong> ಶುದ್ಧ ಸಾವಯವ ಅಣಬೆ ಕಟಾವು ಮಾಡಿ ರಿಲಯನ್ಸ್ ಮತ್ತು ಆನ್‌ಲೈನ್ ಮೂಲಕ ನೇರ ಮಾರಾಟ.",
+    chakraPoint3: "<strong>೩. ಪಶು-ಪಕ್ಷಿ ಆಹಾರ & ಸಾವಯವ ಕಾಂಪೋಸ್ಟ್:</strong> ಅಣಬೆ ಕಟಾವಿನ ನಂತರದ ತೇವದ ಹುಲ್ಲು ಕುರಿ, ಕೋಳಿಗಳಿಗೆ ಪೌಷ್ಟಿಕ ಆಹಾರ; ನಂತರ ಉತ್ಕೃಷ್ಟ ವರ್ಮಿ ಕಾಂಪೋಸ್ಟ್ ಆಗಿ ಮಣ್ಣಿಗೆ ಮರುಪೂರಣ!",
+    chakraPoint4: "<strong>೪. ಸಮಗ್ರ ಕೃಷಿ, ಶೂನ್ಯ ತ್ಯಾಜ್ಯ ಮರುಬಳಕೆ & ಮಣ್ಣಿನ ಆರೋಗ್ಯ:</strong> ಸಾಂಪ್ರದಾಯಿಕ ಕೃಷಿಯನ್ನು ಬಿಟ್ಟು, ಕೃಷಿ ಅಧಿಕಾರಿ ವಿಜ್ಞಾನಿಗಳು ಮತ್ತು ಒಡಿಪಿ ಸಂಸ್ಥೆಯ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ, ವೈಜ್ಞಾನಿಕವಾಗಿ ತರಬೇತಿ ಪಡೆದು ಅಣಬೆ ಕುರಿ ಕೋಳಿ ಜೇನು ಅಜೋಲ ವರ್ಮಿ ಕಾಂಪೋಸ್ಟ್, ಒಂದೇ ಸೂರಿನಡಿ ನಮ್ಮ ಅನುಕೂಲಕ್ಕೆ ತಕ್ಕಂತೆ ಎಲ್ಲಾ ಉತ್ಪನ್ನಗಳನ್ನು, ಮೌಲ್ಯವರ್ಧನೆ ಮಾಡಿ ನೇರವಾಗಿ ಮಾರುಕಟ್ಟೆಯನ್ನು ಕಂಡುಕೊಂಡಿರುತ್ತೇವೆ. ಭವಿಷ್ಯದ ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಮತ್ತು ಮಾನವನ ಆರೋಗ್ಯವನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ಕೃಷಿ ಮೂಲದಿಂದ ಬರುವ ಎಲ್ಲಾ ತ್ಯಾಜ್ಯಗಳನ್ನು, ಪ್ಲಾಸ್ಟಿಕ್ ಬೇರ್ಪಡಿಸಿ ಒಂದರಿಂದ ಮತ್ತೊಂದಕ್ಕೆ ಪೂರಕವಾಗುವ ಹಾಗೆ ಪರಿಸರಕ್ಕೆ ಹಾನಿಯಾಗದಂತೆ ರಿಸೈಕ್ಲಿಂಗ್ ಪ್ಲಾನಿಂಗ್ ಮಾಡಿ, ಮತ್ತೆ ಮಣ್ಣಿಗೆ ಸೇರಿಸಿದ್ದೇವೆ.",
     videoBadge: "ದೂರದರ್ಶನ ವಿಶೇಷ ವರದಿ • 10TV Kannada News",
     videoTitle: "೧೦ ಟಿವಿ ನ್ಯೂಸ್ ವಿಶೇಷ ವರದಿ: ಡಾ. ಸಂತೋಷ್ ತಿಮ್ಮೇಗೌಡರ ಕೃಷಿ ಕ್ರಾಂತಿ & ಸಂದರ್ಶನ",
     videoDesc: "ಡಾ. ಸಂತೋಷ್ ತಿಮ್ಮೇಗೌಡ ಅವರ ತೋಟದಲ್ಲಿ ನಡೆದ ಸಮಗ್ರ ಕೃಷಿ, ಅಣಬೆ ಬೇಸಾಯ ಮತ್ತು ನೇರ ಮಾರುಕಟ್ಟೆ ಕ್ರಾಂತಿಯ ಅಧಿಕೃತ ಟೆಲಿವಿಷನ್ ವರದಿ ಮತ್ತು ನೇರ ಸಂದರ್ಶನ ವೀಕ್ಷಿಸಿ.",
@@ -543,12 +554,13 @@ const translations = {
     act2HlDesc: "ಹಣ್ಣು-ತರಕಾರಿಗಳಿಂದ ಮಾಜಿ ಪ್ರಧಾನಿಗಳ ಭಾವಚಿತ್ರ ಕೆತ್ತನೆ ಹಾಗೂ ಮಾಜಿ ಸಿಎಂ ಹೆಚ್.ಡಿ. ಕುಮಾರಸ್ವಾಮಿಯವರಿಗೆ ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ ಸಲ್ಲಿಕೆ.",
     act2ImgCap1: "ಮಾಜಿ ಪ್ರಧಾನಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡರ ಮುಖಚಿತ್ರದ ಅದ್ಭುತ ತರಕಾರಿ ಕೆತ್ತನೆ ಕಲಾಕೃತಿ",
     act2ImgCap2: "ಮಾಜಿ ಸಿಎಂ ಶ್ರೀ ಹೆಚ್.ಡಿ. ಕುಮಾರಸ್ವಾಮಿ ಅವರಿಗೆ ಅರ್ಪಿಸಲಾದ ಸಾವಯವ ತರಕಾರಿಗಳ ಸುಂದರ ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ",
+    act2ImgCap3: "ಮಾಜಿ ಪ್ರಧಾನಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡರಿಗೆ ವೇದಿಕೆಯಲ್ಲಿ ಮೈಸೂರು ಪೇಟ ತೊಡಿಸಿ, ಪುಷ್ಪಮಾಲೆ ಅರ್ಪಿಸಿ ಗೌರವ ಸನ್ಮಾನ.",
     act3Badge: "ರೈತರ ಸಂಘಟನೆ & FPO ಕಾರ್ಯದರ್ಶಿ ಸೇವೆ",
     act3Title: "ರೈತರನ್ನು ಸಂಘಟಿಸಿ FPO ಮೂಲಕ ಉತ್ಪನ್ನಗಳ ನೇರ ಮಾರಾಟ (ಕಾರ್ಯದರ್ಶಿ ಸೇವೆ)",
     act3Desc: "ರೈತ ಉತ್ಪಾದಕ ಸಂಸ್ಥೆಗಳ (FPO) ಕಾರ್ಯದರ್ಶಿಯಾಗಿ ನಿಷ್ಠೆಯಿಂದ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿರುವ ಡಾ. ತಿಮ್ಮೇಗೌಡರು, ಸಣ್ಣ ಹಾಗೂ ಅತಿ ಸಣ್ಣ ರೈತರನ್ನು ಒಗ್ಗೂಡಿಸಿ ಗುಂಪುಗಳನ್ನು ರಚಿಸಿದ್ದಾರೆ. ಮಧ್ಯವರ್ತಿಗಳ ಶೋಷಣೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಪ್ಪಿಸಿ, ರೈತರ ತಾಜಾ ಉತ್ಪನ್ನಗಳನ್ನು ನೇರವಾಗಿ ರಿಲಯನ್ಸ್ ರಿಟೇಲ್ ಹಾಗೂ ಗ್ರಾಹಕರಿಗೆ ನ್ಯಾಯಯುತ ಬೆಲೆಗೆ ಮಾರಾಟ ಮಾಡುವ ವ್ಯವಸ್ಥೆಯನ್ನು ಸೃಷ್ಟಿಸಿ ನೂರಾರು ರೈತ ಕುಟುಂಬಗಳ ಆರ್ಥಿಕ ಚೇತರಿಕೆಗೆ ಬೆನ್ನೆಲುಬಾಗಿ ನಿಂತಿದ್ದಾರೆ.",
     act3HlTitle: "ಸಾವಯವ ಸಮಗ್ರ ತೋಟಗಾರಿಕೆ & ನೇರ ಗ್ರಾಹಕ ಮಾರುಕಟ್ಟೆ",
     act3HlDesc: "ಪಪ್ಪಾಯಿ, ತರಕಾರಿ ಮತ್ತು ಧಾನ್ಯಗಳ ತ್ರಿವರ್ಣ ಧ್ವಜ ಕಲಾ ಸಂಯೋಜನೆ ಮತ್ತು ರೈತರಿಗೆ ನ್ಯಾಯಯುತ ಲಾಭ.",
-    act3ImgCap1: "ಧಾನ್ಯ-ತರಕಾರಿಗಳಿಂದ ನಿರ್ಮಿಸಿದ ರಾಷ್ಟ್ರಧ್ವಜ ಹಾಗೂ ಸಮೃದ್ಧ ಸಾವಯವ ಪಪ್ಪಾಯಿ ತೋಟದ ಸಂಭ್ರಮ",
+    act3ImgCap1: "ಮೇಲೆ: ತರಕಾರಿಗಳಿಂದ ನಿರ್ಮಿಸಿದ ರಾಷ್ಟ್ರಧ್ವಜ • ಕೆಳಗೆ: ಸಮೃದ್ಧ ಸಾವಯವ ಪಪ್ಪಾಯಿ ತೋಟದಲ್ಲಿ ಡಾ. ಸಂತೋಷ್",
     act4Badge: "ಹಸಿರು ಸಂಕಲ್ಪ & ಮಂಡ್ಯ ರೈತರ ರಾಯಭಾರಿ",
     act4Title: "ಸಭೆ-ಸಮಾರಂಭಗಳಲ್ಲಿ ಗಿಡಗಳನ್ನು ಉಡುಗೊರೆಯಾಗಿ ನೀಡುವುದು & 'ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ಸಂಕಲ್ಪ",
     act4Desc: "ಯಾವುದೇ ಸಭೆ, ಸಮಾರಂಭ, ಅತಿಥಿ ಸತ್ಕಾರವಿರಲಿ — ಡಾ. ತಿಮ್ಮೇಗೌಡರು ಗಿಡಗಳನ್ನು ಉಡುಗೊರೆಯಾಗಿ ನೀಡುವ ಹಸಿರು ಸಂಸ್ಕೃತಿಯನ್ನು ರೂಢಿಸಿಕೊಂಡಿದ್ದಾರೆ. ತಮ್ಮ ಜನ್ಮದಿನ, ವಿವಾಹ ವಾರ್ಷಿಕೋತ್ಸವ ಹಾಗೂ ಕುಟುಂಬದ ಪ್ರತಿಯೊಂದು ಶುಭ ಸಂದರ್ಭಗಳಲ್ಲಿ 'ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ಅಭಿಯಾನದಡಿ ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ, ರಸ್ತೆ ಬದಿಗಳಲ್ಲಿ ಗಿಡಗಳನ್ನು ನೆಟ್ಟು ಸ್ವತಃ ತಾವೇ ಪೋಷಿಸುತ್ತಿದ್ದಾರೆ. ಸಕ್ಕರೆ ನಾಡು ಮಂಡ್ಯ ಜಿಲ್ಲೆಯ ರೈತರ ಸದಾಶಯ ಮತ್ತು ಹಿತಾಸಕ್ತಿಯನ್ನು ರಾಜ್ಯಾದ್ಯಂತ ಹೆಮ್ಮೆಯಿಂದ ಪ್ರತಿನಿಧಿಸುವ ರೈತ ರಾಯಭಾರಿಯಾಗಿ ಗುರುತಿಸಿಕೊಂಡಿದ್ದಾರೆ.",
@@ -566,7 +578,7 @@ const translations = {
     act6Desc: "ಕೃಷಿಯ ನಿರಂತರ ಪರಿಶ್ರಮದ ನಡುವೆ ಮನಸ್ಸಿಗೆ ಉಲ್ಲಾಸ ಹಾಗೂ ನವೀನ ಕೃಷಿ ತಂತ್ರಜ್ಞಾನಗಳ ಪ್ರಾಯೋಗಿಕ ಜ್ಞಾನ ಪಡೆಯಲು ವರ್ಷಕ್ಕೆ ಒಂದೆರಡು ಬಾರಿ ಕುಟುಂಬ ಹಾಗೂ ಆಪ್ತ ರೈತರೊಂದಿಗೆ ಪ್ರವಾಸ ಕೈಗೊಳ್ಳುವುದು ಇವರ ವಾಡಿಕೆ. ವಿಮಾನದ ಮೂಲಕ ದೂರದ ರಾಜ್ಯಗಳ ಕೃಷಿ ಸಂಶೋಧನಾ ಕೇಂದ್ರಗಳು, ಪ್ರಸಿದ್ಧ ಐತಿಹಾಸಿಕ ತಾಣಗಳು ಹಾಗೂ ನೈಸರ್ಗಿಕ ತಾಣಗಳಿಗೆ ಭೇಟಿ ನೀಡಿ ಹೊಸ ಅನುಭವಗಳನ್ನು ಮೈಗೂಡಿಸಿಕೊಂಡು ಕೃಷಿಗೆ ಹೊಸ ಚೈತನ್ಯ ತುಂಬುತ್ತಾರೆ.",
     act6HlTitle: "ಆಕಾಶದ ಎತ್ತರಕ್ಕೂ ಹಾರಿದ ಕೃಷಿಕನ ಕನಸು",
     act6HlDesc: "ಕುಟುಂಬದೊಂದಿಗೆ ವಿಮಾನ ಪ್ರಯಾಣ ಕೈಗೊಂಡು ಜ್ಞಾನ ವಿಸ್ತರಿಸುವ ಹಾಗೂ ಕುಟುಂಬದ ಜತೆಗೂಡಿ ಸಂಭ್ರಮಿಸುವ ಅಪರೂಪದ ಕ್ಷಣಗಳು.",
-    act6ImgCap1: "ಕುಟುಂಬದೊಂದಿಗೆ ವಾರ್ಷಿಕ ಪ್ರವಾಸಕ್ಕಾಗಿ ವಿಮಾನ ನಿಲ್ದಾಣದ ರನ್‌ವೇಯಲ್ಲಿ ಬೋರ್ಡಿಂಗ್ ಮಾಡುತ್ತಿರುವ ಆತ್ಮೀಯ ಕ್ಷಣಗಳು",
+    act6ImgCap1: "ಮೇಲೆ: ಕುಟುಂಬ ಸಮೇತ ಇಂಡಿಗೋ ವಿಮಾನ ಬೋರ್ಡಿಂಗ್ • ಕೆಳಗೆ: ವಿಮಾನ ನಿಲ್ದಾಣದ ಟರ್ಮಿನಲ್ ಎದುರು ಕುಟುಂಬದ ಸಂಭ್ರಮ",
     gratitudeBadge: "ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು • Heartfelt Gratitude",
     gratitudeTitle: "ಇದುವರೆಗೆ ನಮ್ಮ ಬಗ್ಗೆ ಓದಿ ವಿಷಯವನ್ನು ತಿಳಿದುಕೊಂಡ ನಿಮಗೂ ಮತ್ತು ನಮ್ಮನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತಿರುವ ಎಲ್ಲರಿಗೂ ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು",
     gratitudeQuote: "\"ಇದುವರೆಗೆ ನಮ್ಮ ಬಗ್ಗೆ ಓದಿ ವಿಷಯವನ್ನು ತಿಳಿದುಕೊಂಡ ನಿಮಗೂ ಮತ್ತು ನಮ್ಮನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತಿರುವ ಎಲ್ಲರಿಗೂ ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು Thank you 🎉💚 🥰 🙏\"",
@@ -718,13 +730,29 @@ document.addEventListener('DOMContentLoaded', () => {
     statsObserver.observe(statsSection);
   }
 
-  // 3. STICKY NAVBAR, BACK TO TOP & ACTIVE NAV HIGHLIGHTER (Optimized to prevent frame drops)
+  // 3. STICKY NAVBAR, BACK TO TOP & ACTIVE NAV HIGHLIGHTER (Optimized: Zero layout thrashing)
   const navbar = document.getElementById('navbar');
   const backToTopBtn = document.getElementById('backToTop');
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-link');
+  const mobileToggle = document.getElementById('mobileToggle');
+  const navMenu = document.getElementById('navMenu');
+
+  let sectionPositions = [];
+  function updateSectionPositions() {
+    sectionPositions = Array.from(sections).map(sec => ({
+      id: sec.getAttribute('id'),
+      top: sec.offsetTop,
+      bottom: sec.offsetTop + sec.offsetHeight
+    }));
+  }
+  updateSectionPositions();
+  window.addEventListener('resize', updateSectionPositions, { passive: true });
+  window.addEventListener('load', updateSectionPositions, { passive: true });
 
   let isScrolling = false;
+  let lastScrollY = window.scrollY || 0;
+  const scrollDeltaThreshold = 8;
 
   function onScroll() {
     const scrollY = window.scrollY;
@@ -735,7 +763,23 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         navbar.classList.remove('scrolled');
       }
+
+      // Hide menu bar on scroll down so no disturbance occurs; reveal on scroll up
+      const isMobileNavOpen = navMenu && navMenu.classList.contains('open');
+      if (scrollY > 150 && !isMobileNavOpen) {
+        if (scrollY > lastScrollY + scrollDeltaThreshold) {
+          // Scrolling down - smoothly hide navbar
+          navbar.classList.add('nav-hidden');
+        } else if (scrollY < lastScrollY - scrollDeltaThreshold) {
+          // Scrolling up - smoothly reveal navbar
+          navbar.classList.remove('nav-hidden');
+        }
+      } else {
+        // At top of page - always visible
+        navbar.classList.remove('nav-hidden');
+      }
     }
+    lastScrollY = Math.max(0, scrollY);
 
     if (backToTopBtn) {
       if (scrollY > 400) {
@@ -745,16 +789,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Active Section Highlight
+    // Active Section Highlight from cached positions (Zero Reflow)
     let currentId = '';
     const scrollMarker = scrollY + 140;
-    sections.forEach(section => {
-      const top = section.offsetTop;
-      const height = section.offsetHeight;
-      if (scrollMarker >= top && scrollMarker < top + height) {
-        currentId = section.getAttribute('id');
+    for (let i = 0; i < sectionPositions.length; i++) {
+      const pos = sectionPositions[i];
+      if (scrollMarker >= pos.top && scrollMarker < pos.bottom) {
+        currentId = pos.id;
+        break;
       }
-    });
+    }
 
     if (currentId) {
       navLinks.forEach(link => {
@@ -783,9 +827,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 4. MOBILE NAVIGATION DRAWER
-  const mobileToggle = document.getElementById('mobileToggle');
-  const navMenu = document.getElementById('navMenu');
-
   if (mobileToggle && navMenu) {
     mobileToggle.addEventListener('click', () => {
       navMenu.classList.toggle('open');
