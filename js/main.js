@@ -6,6 +6,8 @@
 const translations = {
   en: {
     brandName: "Dr. Thimmegowda M.K. (Santhosh)",
+    brandPrimary: "Dr. Thimmegowda M.K.",
+    brandSecondary: "(Santhosh) • Agricultural Specialist",
     brandSub: "Agri-Entrepreneur • Agri Univ, ODP, RUDSETI & Private Faculty",
     navIntro: "Introduction",
     navAchievements: "Achievements",
@@ -33,7 +35,7 @@ const translations = {
     stat2Label: "Students Trained",
     stat3Number: "100%",
     stat3Label: "Scientific & Chemical-Free",
-    plinthName: "Dr. Thimmegowda (Santhosh)",
+    plinthName: "Dr. Thimmegowda M.K. (Santhosh)",
     plinthTitle: "27 Years in Scientific Farming • RUDSETI, ODP & Agri Univ Trainer",
 
     // Achievements & Awards Showcase
@@ -52,7 +54,7 @@ const translations = {
     slideCaption8: "FC Krishi Technology Pavilion — Udyami Vokkaliga Honor with Farmers Team",
     slideCaption9: "State Felicitation by Paramapoojya Sri Sri Sri Nirmalanandanatha Mahaswamiji with Fresh Farm Produce Basket",
     inspirationTitle: "An Inspiration for All Farmers",
-    inspirationDesc: "Through 27 years of tireless scientific innovation and selfless mentorship, Dr. Thimmegowda (Santhosh) stands as an inspiring beacon for the entire agricultural fraternity.",
+    inspirationDesc: "Through 27 years of tireless scientific innovation and selfless mentorship, Dr. Thimmegowda M.K. (Santhosh) stands as an inspiring beacon for the entire agricultural fraternity.",
     award1Title: "Doctorate Degree Honor",
     award1Org: "German University",
     award1Desc: "Honorary Doctorate conferred in recognition of distinguished service to agricultural sciences and organic bio-technological research.",
@@ -83,29 +85,27 @@ const translations = {
     award10Title: "Super Dampati Award",
     award10Org: "Colors Super TV Channel",
     award10Desc: "Prestigious television honor conferred by Colors Super TV channel.",
-    award11Title: "VK Superstar Farmer Award",
-    award11Org: "Superstar Raita",
-    award11Desc: "State recognition conferred for stellar agricultural innovation and farm leadership.",
-    award12Title: "Modern Farmer Award",
-    award12Org: "Modern Farmer Honor",
-    award12Desc: "Recognized for modernizing farm sheds with scientific mushroom biotechnology.",
-    award13Title: "Yuva Raita Ratna Award",
-    award13Org: "Yuva Raita Ratna",
-    award13Desc: "Conferred for inspiring youth to embrace profitable, self-reliant agro-enterprises.",
-    award14Title: "UAS Bangalore Diamond Jubilee Honor",
-    award14Org: "GKVK, UAS Bangalore",
-    award14Desc: "Special agricultural honor conferred at University of Agricultural Sciences Bangalore Diamond Jubilee.",
-    award15Title: "Kayaka Shri Award",
-    award15Org: "Kalamandira Mandya • Harsha Samaj Seva Foundation",
-    award15Desc: "Prestigious state honor conferred at Kalamandira Mandya by Harsha Samaj Seva Foundation for dedicated community and agricultural upliftment.",
-    award16Title: "Karunada Chetana Award",
-    award16Org: "Spoorthi Kala Trust Bengaluru",
-    award16Desc: "Conferred by Spoorthi Kala Trust Bengaluru in recognition of exceptional service to Karnataka agriculture and farmer empowerment.",
+    award11Title: "Modern Farmer Award",
+    award11Org: "Modern Farmer Honor",
+    award11Desc: "Recognized for modernizing farm sheds with scientific mushroom biotechnology.",
+    award12Title: "Yuva Raita Ratna Award",
+    award12Org: "Yuva Raita Ratna",
+    award12Desc: "Conferred for inspiring youth to embrace profitable, self-reliant agro-enterprises.",
+    award13Title: "UAS Bangalore Diamond Jubilee Honor",
+    award13Org: "GKVK, UAS Bangalore",
+    award13Desc: "Special agricultural honor conferred at University of Agricultural Sciences Bangalore Diamond Jubilee.",
+    award14Title: "Kayaka Shri Award",
+    award14Org: "Kalamandira Mandya • Harsha Samaj Seva Foundation",
+    award14Desc: "Prestigious state honor conferred at Kalamandira Mandya by Harsha Samaj Seva Foundation for dedicated community and agricultural upliftment.",
+    award15Title: "Karunada Chetana Award",
+    award15Org: "Spoorthi Kala Trust Bengaluru",
+    award15Desc: "Conferred by Spoorthi Kala Trust Bengaluru in recognition of exceptional service to Karnataka agriculture and farmer empowerment.",
     extraHonorsTitle: "And Felicitations by Numerous State Organizations & Academic Bodies",
     extraHonorsDesc: "Dozens of farmer federations, community councils, and academic trusts across Karnataka have felicitated Dr. Thimmegowda for his inspiring leadership.",
     pillTag1: "Udyami Vokkaliga",
     pillTag2: "State Progressive Farmer Award",
     pillTag3: "State Organic Farmer Award",
+    pillTag4: "Mandya District Farmers' Ambassador",
 
     // Teaching
     teachingBadge: "Part III • Educational Leadership & Mentorship",
@@ -143,6 +143,7 @@ const translations = {
     teachingSlideCaption6: "Student-centric interactive classroom guidance and theory session",
     teachingSlideCaption7: "Hands-on outdoor practical workshop on substrate preparation from agri-waste",
     teachingSlideCaption8: "Valedictory graduation batch with 30+ students, farmers & dignitaries",
+    teachingSlideCaption9: "Guru Vandana Celebration — RUDSETI students presenting floral tributes and felicitating Dr. Santhosh",
 
     // Mushroom Blueprint & Practical Methodology
     methodBadge: "Part IV • Practical Technology & Video Masterclass",
@@ -204,7 +205,7 @@ const translations = {
     ch3Badge: "Chapter III • Scientific Breakthrough — Integrated Multi-Cropping (7-8 Income Streams)",
     ch3Title: "Abandoning Outdated Farming: Scientific Soil-Water Testing & Diverse Abundance",
     ch3Text1: "I realized that if I continued along the traditional path, I would never achieve meaningful progress or overcome poverty. So, I took a decisive step to abandon unscientific methods on our land. Adopting a rigorous scientific approach, I had our soil and water tested, made natural organic methods the cornerstone, and designed an Integrated Multi-Cropping System on our land.",
-    ch3Text2: "Operating on the principle of 'Single Expenditure, Simultaneous Timing, and Single Water Utilization', I engineered the plot to yield 7 to 8 diversified, recurring income streams. By intercropping leafy greens, seasonal vegetables, coconut, arecanut, banana, fruit orchards, forestry timber, and medicinal plants, we attained bumper yields and handsome profits. Astonished by this transformation, local farmers and Agriculture Department officers visited our land in large numbers, celebrated our breakthrough, and guided other farmers across the region to adopt this model.",
+    ch3Text2: "Operating on the principle of 'Single Expenditure, Simultaneous Timing, and Single Water Utilization', I engineered the plot to yield 7 to 8 diversified, recurring income streams. By intercropping leafy greens, seasonal vegetables, coconut, arecanut, banana, fruit orchards, forestry timber, and medicinal plants, we attained bumper yields and handsome profits. By selling all varieties of leafy greens and fresh vegetables directly to Reliance Retail Limited via advance booking and marketing all farm produce online, the income was credited directly to our bank account, substantially boosting our savings, eliminating exploitative middlemen, and saving precious time otherwise spent traveling to distant markets. Astonished by this transformation, local farmers and Agriculture Department officers visited our land in large numbers, celebrated our breakthrough, and guided other farmers across the region to adopt this model.",
     ch3Quote: "\"One piece of land, single water expenditure, seven to eight income streams — that is the true transformative magic of integrated organic farming.\"",
     
     ch4Badge: "Chapter IV • Transforming 10 Guntas into a 'Mini Krishi University' & Reliance Direct Retail",
@@ -311,6 +312,8 @@ const translations = {
 
   kn: {
     brandName: "ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್)",
+    brandPrimary: "ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ.",
+    brandSecondary: "(ಸಂತೋಷ್) • ಕೃಷಿ ತಜ್ಞರು & ರಾಯಭಾರಿ",
     brandSub: "ಕೃಷಿ ಉದ್ಯಮಿ • ಕೃಷಿ ವಿವಿ, ಒಡಿಪಿ, ರುಡ್ಸೆಟಿ ಮತ್ತು ಖಾಸಗಿ ಸಂಸ್ಥೆಗಳ ಬೋಧಕರು",
     navIntro: "ಪರಿಚಯ",
     navAchievements: "ಸಾಧನೆಗಳು",
@@ -338,7 +341,7 @@ const translations = {
     stat2Label: "ತರಬೇತಿ ಪಡೆದ ವಿದ್ಯಾರ್ಥಿಗಳು",
     stat3Number: "100%",
     stat3Label: "ವೈಜ್ಞಾನಿಕ ಸಾವಯವ ಪದ್ಧತಿ",
-    plinthName: "ಡಾ. ತಿಮ್ಮೇಗೌಡ (ಸಂತೋಷ್)",
+    plinthName: "ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್)",
     plinthTitle: "೨೭ ವರ್ಷಗಳ ಕೃಷಿ ಸಾಧಕರು • ರುಡ್‌ಸೆಟ್‌, ಒಡಿಪಿ ಮತ್ತು ಕೃಷಿ ವಿವಿ ತರಬೇತಿದಾರರು",
 
     // Achievements & Awards Showcase
@@ -357,7 +360,7 @@ const translations = {
     slideCaption8: "ಎಫ್.ಸಿ. ಕೃಷಿ ತಂತ್ರಜ್ಞಾನ ವಲಯ — ರೈತ ಮುಖಂಡರೊಂದಿಗೆ ಗೌರವ",
     slideCaption9: "ಪೂಜ್ಯ ಶ್ರೀ ಶ್ರೀ ಶ್ರೀ ನಿರ್ಮಲಾನಂದನಾಥ ಮಹಾಸ್ವಾಮೀಜಿ ಅವರಿಂದ ವೇದಿಕೆ ಸನ್ಮಾನ ಹಾಗೂ ಹಣ್ಣು-ತರಕಾರಿ ಬುಟ್ಟಿ ಸಮರ್ಪಣೆ",
     inspirationTitle: "ಸಾವಿರಾರು ರೈತರಿಗೆ ಸ್ಪೂರ್ತಿಯ ಚಿಲುಮೆ",
-    inspirationDesc: "ತಮ್ಮ ೨೭ ವರ್ಷಗಳ ಸತತ ಕೃಷಿ ನಾವೀನ್ಯತೆ ಹಾಗೂ ನಿಸ್ವಾರ್ಥ ತರಬೇತಿಯ ಮೂಲಕ ಡಾ. ತಿಮ್ಮೇಗೌಡ (ಸಂತೋಷ್) ಅವರು ಸಮಸ್ತ ಕೃಷಿ ಸಮುದಾಯಕ್ಕೆ ಆದರ್ಶಪ್ರಾಯರಾಗಿದ್ದಾರೆ.",
+    inspirationDesc: "ತಮ್ಮ ೨೭ ವರ್ಷಗಳ ಸತತ ಕೃಷಿ ನಾವೀನ್ಯತೆ ಹಾಗೂ ನಿಸ್ವಾರ್ಥ ತರಬೇತಿಯ ಮೂಲಕ ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್) ಅವರು ಸಮಸ್ತ ಕೃಷಿ ಸಮುದಾಯಕ್ಕೆ ಆದರ್ಶಪ್ರಾಯರಾಗಿದ್ದಾರೆ.",
     award1Title: "ಡಾಕ್ಟರೇಟ್ ಪದವಿ ಪುರಸ್ಕಾರ",
     award1Org: "ಜರ್ಮನ್ ಯುನಿವರ್ಸಿಟಿ",
     award1Desc: "ಕೃಷಿ ವಿಜ್ಞಾನ ಮತ್ತು ಸಾವಯವ ನಾವೀನ್ಯತೆಯಲ್ಲಿನ ಅಪ್ರತಿಮ ಸೇವೆಗಾಗಿ ಗೌರವ ಡಾಕ್ಟರೇಟ್ ಪದವಿ ಪುರಸ್ಕಾರ.",
@@ -388,29 +391,27 @@ const translations = {
     award10Title: "ಸೂಪರ್ ದಂಪತಿ ಅವಾರ್ಡ್",
     award10Org: "ಕಲರ್ ಸೂಪರ್ ಟಿವಿ ವಾಹಿನಿ",
     award10Desc: "ಕಲರ್ ಸೂಪರ್ ದೂರದರ್ಶನ ವಾಹಿನಿಯ ವತಿಯಿಂದ ಪ್ರದಾನ ಮಾಡಲಾದ ಗೌರವ ಪುರಸ್ಕಾರ.",
-    award11Title: "ವಿ ಕೆ ಸೂಪರ್ ಸ್ಟಾರ್ ರೈತ ಪ್ರಶಸ್ತಿ",
-    award11Org: "Superstar Raita",
-    award11Desc: "ಕೃಷಿಯಲ್ಲಿನ ಸಾಧನೆ ಹಾಗೂ ನಾಯಕತ್ವವನ್ನು ಗುರುತಿಸಿ ಲಭಿಸಿದ ಸೂಪರ್ ಸ್ಟಾರ್ ರೈತ ಬಿರುದು.",
-    award12Title: "ಮಾಡ್ರನ್ ರೈತ ಪ್ರಶಸ್ತಿ",
-    award12Org: "Modern Farmer Award",
-    award12Desc: "ಆಧುನಿಕ ತಂತ್ರಜ್ಞಾನ, ಅಣಬೆ ಕೃಷಿ ಮತ್ತು ವೈಜ್ಞಾನಿಕ ವಿಧಾನಗಳನ್ನು ಅಳವಡಿಸಿಕೊಂಡಿದ್ದಕ್ಕಾಗಿ ಸನ್ಮಾನ.",
-    award13Title: "ಯುವ ರೈತರತ್ನ ಪ್ರಶಸ್ತಿ",
-    award13Org: "Yuva Raita Ratna",
-    award13Desc: "ಯುವ ಪೀಳಿಗೆಗೆ ಕೃಷಿಯಲ್ಲಿ ದಾರಿದೀಪವಾಗಿ ನಿಂತಿದ್ದಕ್ಕಾಗಿ ಪ್ರದಾನ ಮಾಡಲಾದ ಯುವ ರೈತರತ್ನ ಪ್ರಶಸ್ತಿ.",
-    award14Title: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರು ವಜ್ರ ಮಹೋತ್ಸವ ಸನ್ಮಾನ",
-    award14Org: "GKVK, UAS Bangalore",
-    award14Desc: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರಿನ ಐತಿಹಾಸಿಕ ವಜ್ರ ಮಹೋತ್ಸವ ಸಮಾರಂಭದಲ್ಲಿ ಲಭಿಸಿದ ಕೃಷಿ ಸನ್ಮಾನ.",
-    award15Title: "ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ",
-    award15Org: "ಕಲಾಮಂದಿರ ಮಂಡ್ಯ • ಹರ್ಷ ಸಮಾಜ ಸೇವಾ ಫೌಂಡೇಶನ್",
-    award15Desc: "ಸಮಾಜ ಸೇವೆ ಹಾಗೂ ಕೃಷಿ ಕ್ಷೇತ್ರದಲ್ಲಿನ ನಿಸ್ವಾರ್ಥ ಶ್ರಮ ಮತ್ತು ರೈತ ಸಮುದಾಯದ ಏಳಿಗೆಗಾಗಿ ಮಂಡ್ಯದ ಕಲಾಮಂದಿರದಲ್ಲಿ ಪ್ರದಾನ ಮಾಡಲಾದ ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ.",
-    award16Title: "ಕರುನಾಡ ಚೇತನ ಪ್ರಶಸ್ತಿ",
-    award16Org: "ಸ್ಪೂರ್ತಿ ಕಲಾ ಟ್ರಸ್ಟ್ ಬೆಂಗಳೂರು",
-    award16Desc: "ಕರ್ನಾಟಕದ ಕೃಷಿ ಮತ್ತು ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿಗೆ ನೀಡಿದ ಅನನ್ಯ ಕೊಡುಗೆ ಹಾಗೂ ರೈತರ ಸಬಲೀಕರಣಕ್ಕಾಗಿ ಸಂದ ಗೌರವ.",
+    award11Title: "ಮಾಡ್ರನ್ ರೈತ ಪ್ರಶಸ್ತಿ",
+    award11Org: "Modern Farmer Award",
+    award11Desc: "ಆಧುನಿಕ ತಂತ್ರಜ್ಞಾನ, ಅಣಬೆ ಕೃಷಿ ಮತ್ತು ವೈಜ್ಞಾನಿಕ ವಿಧಾನಗಳನ್ನು ಅಳವಡಿಸಿಕೊಂಡಿದ್ದಕ್ಕಾಗಿ ಸನ್ಮಾನ.",
+    award12Title: "ಯುವ ರೈತರತ್ನ ಪ್ರಶಸ್ತಿ",
+    award12Org: "Yuva Raita Ratna",
+    award12Desc: "ಯುವ ಪೀಳಿಗೆಗೆ ಕೃಷಿಯಲ್ಲಿ ದಾರಿದೀಪವಾಗಿ ನಿಂತಿದ್ದಕ್ಕಾಗಿ ಪ್ರದಾನ ಮಾಡಲಾದ ಯುವ ರೈತರತ್ನ ಪ್ರಶಸ್ತಿ.",
+    award13Title: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರು ವಜ್ರ ಮಹೋತ್ಸವ ಸನ್ಮಾನ",
+    award13Org: "GKVK, UAS Bangalore",
+    award13Desc: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರಿನ ಐತಿಹಾಸಿಕ ವಜ್ರ ಮಹೋತ್ಸವ ಸಮಾರಂಭದಲ್ಲಿ ಲಭಿಸಿದ ಕೃಷಿ ಸನ್ಮಾನ.",
+    award14Title: "ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ",
+    award14Org: "ಕಲಾಮಂದಿರ ಮಂಡ್ಯ • ಹರ್ಷ ಸಮಾಜ ಸೇವಾ ಫೌಂಡೇಶನ್",
+    award14Desc: "ಸಮಾಜ ಸೇವೆ ಹಾಗೂ ಕೃಷಿ ಕ್ಷೇತ್ರದಲ್ಲಿನ ನಿಸ್ವಾರ್ಥ ಶ್ರಮ ಮತ್ತು ರೈತ ಸಮುದಾಯದ ಏಳಿಗೆಗಾಗಿ ಮಂಡ್ಯದ ಕಲಾಮಂದಿರದಲ್ಲಿ ಪ್ರದಾನ ಮಾಡಲಾದ ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ.",
+    award15Title: "ಕರುನಾಡ ಚೇತನ ಪ್ರಶಸ್ತಿ",
+    award15Org: "ಸ್ಪೂರ್ತಿ ಕಲಾ ಟ್ರಸ್ಟ್ ಬೆಂಗಳೂರು",
+    award15Desc: "ಕರ್ನಾಟಕದ ಕೃಷಿ ಮತ್ತು ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿಗೆ ನೀಡಿದ ಅನನ್ಯ ಕೊಡುಗೆ ಹಾಗೂ ರೈತರ ಸಬಲೀಕರಣಕ್ಕಾಗಿ ಸಂದ ಗೌರವ.",
     extraHonorsTitle: "ಹಾಗೂ ಹತ್ತು ಹಲವು ಸಂಘ ಸಂಸ್ಥೆಗಳ ಸಭೆ ಸಮಾರಂಭಗಳಲ್ಲಿ ಗೌರವ ಸನ್ಮಾನ",
     extraHonorsDesc: "ರಾಜ್ಯಾದ್ಯಂತ ನೂರಾರು ರೈತ ಸಂಘಟನೆಗಳು, ಶೈಕ್ಷಣಿಕ ಪೀಠಗಳು ಹಾಗೂ ಸಾಮಾಜಿಕ ಟ್ರಸ್ಟ್‌ಗಳು ಡಾ. ತಿಮ್ಮೇಗೌಡರ ಕೃಷಿ ಸೇವೆಯನ್ನು ಮುಕ್ತಕಂಠದಿಂದ ಶ್ಲಾಘಿಸಿ ಸನ್ಮಾನಿಸಿವೆ.",
     pillTag1: "ಉದ್ಯಮಿ ಒಕ್ಕಲಿಗ",
     pillTag2: "ರಾಜ್ಯ ಮಟ್ಟದ ಪ್ರಗತಿಪರ ರೈತ ಪ್ರಶಸ್ತಿ",
     pillTag3: "ರಾಜ್ಯಮಟ್ಟದ ಸಾವಯವ ರೈತ ಪ್ರಶಸ್ತಿ",
+    pillTag4: "ಮಂಡ್ಯ ಜಿಲ್ಲೆಯ ರೈತರ ರಾಯಭಾರಿ",
 
     // Teaching
     teachingBadge: "ಭಾಗ ೩ • ಶೈಕ್ಷಣಿಕ ಸೇವೆ ಮತ್ತು ಬೋಧನೆ",
@@ -448,6 +449,7 @@ const translations = {
     teachingSlideCaption6: "ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಸರಳವಾಗಿ ಅರ್ಥವಾಗುವ ಬೋಧನೆ ಮತ್ತು ಸೈದ್ಧಾಂತಿಕ-ಪ್ರಾಯೋಗಿಕ ಸಂವಾದ",
     teachingSlideCaption7: "ಕೃಷಿ ತ್ಯಾಜ್ಯ ಕಚ್ಚಾ ವಸ್ತುಗಳಿಂದ ಅಣಬೆ ಬೆಡ್ ತಯಾರಿಸುವ ನೇರ ಪ್ರಾಕ್ಟಿಕಲ್ ತರಬೇತಿ",
     teachingSlideCaption8: "೩೦ಕ್ಕೂ ಹೆಚ್ಚು ವಿದ್ಯಾವಂತ ಯುವಕರು, ರೈತರು ಹಾಗೂ ಅಧಿಕಾರಿಗಳೊಂದಿಗೆ ಯಶಸ್ವಿ ತರಬೇತಿ ಸಮಾರೋಪ",
+    teachingSlideCaption9: "ಗುರುವಂದನಾ ಕಾರ್ಯಕ್ರಮ — ರುಡ್‌ಸೆಟ್‌ ವಿದ್ಯಾರ್ಥಿನಿಯರಿಂದ ಡಾ. ಸಂತೋಷ್ ಅವರಿಗೆ ಪ್ರೀತಿಯ ಪುಷ್ಪಗುಚ್ಛ ಸಮರ್ಪಣೆ & ಗೌರವ ಸನ್ಮಾನ",
 
     // Mushroom Blueprint & Practical Methodology
     methodBadge: "ಭಾಗ ೪ • ಪ್ರಾಯೋಗಿಕ ತಂತ್ರಜ್ಞಾನ & ವಿಡಿಯೋ ಪ್ರಾತ್ಯಕ್ಷಿಕೆ",
@@ -509,7 +511,7 @@ const translations = {
     ch3Badge: "ಅಧ್ಯಾಯ ೩ • ವೈಜ್ಞಾನಿಕ ಕ್ರಾಂತಿ — ಸಮಗ್ರ ಮಿಶ್ರ ಬೆಳೆ ಪದ್ಧತಿಯಲ್ಲಿ ೭-೮ ವಿಧದ ಆದಾಯ",
     ch3Title: "ಸಾಂಪ್ರದಾಯಿಕ ಪದ್ಧತಿ ತ್ಯಜಿಸಿ ಮಣ್ಣು-ನೀರು ಪರೀಕ್ಷೆ & ೭-೮ ವಿಧದ ನಿರಂತರ ಆದಾಯ",
     ch3Text1: "ಹೀಗೆ ಮುಂದುವರೆದರೆ ನಾನು ಕೃಷಿಯಲ್ಲಿ ಏನು ಸಾಧಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ ಎಂದು ತಿಳಿದು, ಅಂದು ನಮ್ಮ ಜಮೀನಿನಲ್ಲಿ ಸಾಂಪ್ರದಾಯಿಕ ಕೃಷಿಯನ್ನು ಬಿಟ್ಟು, ವೈಜ್ಞಾನಿಕವಾಗಿ, ಮಣ್ಣು ನೀರು ಪರೀಕ್ಷೆ ಆಧಾರದ ಮೇಲೆ ಸಾವಯವಕ್ಕೆ ಹೆಚ್ಚು ಹೊತ್ತುಕೊಟ್ಟು ಒಂದೇ ಜಮೀನಿನಲ್ಲಿ ಸಮಗ್ರ ಮಿಶ್ರ ಬೆಳೆ ಪದ್ಧತಿಯನ್ನು ಅಳವಡಿಸಿದೆ.",
-    ch3Text2: "ಒಂದೇ ಸಮಯ, ಒಂದೇ ಖರ್ಚು, ಒಂದೇ ನೀರು ಖರ್ಚು ಮಾಡಿ, ಏಳರಿಂದ ಎಂಟು ವಿಧವಿಧದ ಆದಾಯ ಬರುವ ಹಾಗೆ ಸೊಪ್ಪು, ತರಕಾರಿ, ತೆಂಗು, ಅಡಿಕೆ, ಬಾಳೆ, ಹಣ್ಣಿನ ಗಿಡಗಳು, ಅರಣ್ಯ ಗಿಡಗಳು, ಔಷಧೀಯ ಗಿಡಗಳನ್ನು ಬೆಳೆದು ಉತ್ತಮ ಇಳುವರಿಯೊಂದಿಗೆ ಅಧಿಕ ಲಾಭವನ್ನು ಸಹ ಗಳಿಸಿದೆ. ಇದನ್ನು ಗಮನಿಸಿದ ಸ್ಥಳೀಯ ರೈತರು ಮತ್ತು ಕೃಷಿ ಅಧಿಕಾರಿಗಳು ನಮ್ಮ ಜಮೀನಿಗೆ ಭೇಟಿ ನೀಡಿ ನಾವು ಬೆಳೆದಿರುವ ಮಿಶ್ರ ಸಮಗ್ರ ಕೃಷಿ ಪದ್ಧತಿಯನ್ನು ನೋಡಿ ಅವರು ನನ್ನನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುವುದರ ಜೊತೆಗೆ ಇತರೆ ರೈತರಿಗೂ ತಿಳಿಸಿ ಅವರು ಅಳವಡಿಸಿಕೊಳ್ಳುವಂತೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಿದರು.",
+    ch3Text2: "ಒಂದೇ ಸಮಯ, ಒಂದೇ ಖರ್ಚು, ಒಂದೇ ನೀರು ಖರ್ಚು ಮಾಡಿ, ಏಳರಿಂದ ಎಂಟು ವಿಧವಿಧದ ಆದಾಯ ಬರುವ ಹಾಗೆ ಸೊಪ್ಪು, ತರಕಾರಿ, ತೆಂಗು, ಅಡಿಕೆ, ಬಾಳೆ, ಹಣ್ಣಿನ ಗಿಡಗಳು, ಅರಣ್ಯ ಗಿಡಗಳು, ಔಷಧೀಯ ಗಿಡಗಳನ್ನು ಬೆಳೆದು ಉತ್ತಮ ಇಳುವರಿಯೊಂದಿಗೆ ಅಧಿಕ ಲಾಭವನ್ನು ಸಹ ಗಳಿಸಿದೆ. ಎಲ್ಲಾ ತರಹದ ಸೊಪ್ಪು ತರಕಾರಿಗಳನ್ನು ರಿಲಯನ್ಸ್ ರಿಟೇಲ್ ಲಿಮಿಟೆಡ್ ಕಂಪನಿಗೆ ಮುಂಗಡ ಬುಕಿಂಗ್ ನೊಂದಿಗೆ ನೇರ ಮಾರಾಟ ಮತ್ತು ಆನ್‌ಲೈನ್ ಮೂಲಕ ಎಲ್ಲ ಉತ್ಪನ್ನಗಳನ್ನು ಮಾರಾಟ ಮಾಡಿದ್ದರಿಂದ ನೇರವಾಗಿ ನಮ್ಮ ಖಾತೆಗೆ ಹಣ ಉಳಿತಾಯ ಹೆಚ್ಚಾಗಿತ್ತು, ಇದರಿಂದ ಮಧ್ಯವರ್ತಿಗಳನ್ನು ತಪ್ಪಿಸಿದವು ಮತ್ತು ಮಾರುಕಟ್ಟೆಗೆ ಹೋಗುತ್ತಿದ್ದ ಸಮಯವೂ ಉಳಿಯಿತು. ಇದನ್ನು ಗಮನಿಸಿದ ಸ್ಥಳೀಯ ರೈತರು ಮತ್ತು ಕೃಷಿ ಅಧಿಕಾರಿಗಳು ನಮ್ಮ ಜಮೀನಿಗೆ ಭೇಟಿ ನೀಡಿ ನಾವು ಬೆಳೆದಿರುವ ಮಿಶ್ರ ಸಮಗ್ರ ಕೃಷಿ ಪದ್ಧತಿಯನ್ನು ನೋಡಿ ಅವರು ನನ್ನನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುವುದರ ಜೊತೆಗೆ ಇತರೆ ರೈತರಿಗೂ ತಿಳಿಸಿ ಅವರು ಅಳವಡಿಸಿಕೊಳ್ಳುವಂತೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಿದರು.",
     ch3Quote: "\"ಒಂದೇ ಭೂಮಿ, ಒಂದೇ ಹನಿ ನೀರು, ಏಳೆಂಟು ಆದಾಯ — ಇದುವೇ ಸಮಗ್ರ ಮಿಶ್ರ ಬೇಸಾಯದ ನಿಜವಾದ ಚಮತ್ಕಾರ.\"",
     
     ch4Badge: "ಅಧ್ಯಾಯ ೪ • ೧೦ ಕುಂಟೆ ಬಂಜರು ಭೂಮಿಯಲ್ಲಿ 'ಮಿನಿ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ'",
@@ -675,6 +677,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 1. SCROLL REVEAL ANIMATIONS
   const revealElements = document.querySelectorAll('.reveal-on-scroll');
+  
+  // Immediately reveal all elements on mobile/tablet screens to guarantee zero blank spaces
+  if (window.innerWidth <= 992) {
+    revealElements.forEach(el => el.classList.add('is-revealed'));
+  }
+
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -684,11 +692,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, {
     root: null,
-    threshold: 0.1,
-    rootMargin: '0px 0px -40px 0px'
+    threshold: 0.01,
+    rootMargin: '100px 0px 50px 0px'
   });
 
-  revealElements.forEach(el => revealObserver.observe(el));
+  revealElements.forEach(el => {
+    if (!el.classList.contains('is-revealed')) {
+      revealObserver.observe(el);
+    }
+  });
+
+  // Safety fallback: ensure all elements are revealed after load
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      revealElements.forEach(el => el.classList.add('is-revealed'));
+    }, 1200);
+  });
 
   // 2. ANIMATED NUMBER COUNTERS
   const statNumbers = document.querySelectorAll('.stat-number');
@@ -851,7 +870,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const organization = document.getElementById('formQuantity').value.trim() || 'Independent';
       const message = document.getElementById('formMessage').value.trim();
 
-      const salutation = currentLang === 'kn' ? 'ನಮಸ್ಕಾರ ಡಾ. ತಿಮ್ಮೇಗೌಡ (ಸಂತೋಷ್) ರವರೇ,' : 'Namaskara Dr. Thimmegowda (Santhosh),';
+      const salutation = currentLang === 'kn' ? 'ನಮಸ್ಕಾರ ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್) ರವರೇ,' : 'Namaskara Dr. Thimmegowda M.K. (Santhosh),';
       const text = encodeURIComponent(
         `${salutation}\n\n` +
         `• ಹೆಸರು / Name: ${name}\n` +
@@ -1208,7 +1227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!modal || !modalImg) return;
 
-    document.querySelectorAll('.zoomable-img, .press-card img, .blueprint-media img, .chakra-img').forEach(img => {
+    document.querySelectorAll('.zoomable-img, .press-card img, .blueprint-media img, .chakra-img, .photo-slider .slide img').forEach(img => {
       img.style.cursor = 'zoom-in';
       img.addEventListener('click', () => {
         modalImg.src = img.getAttribute('data-full') || img.src;
