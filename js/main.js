@@ -11,10 +11,12 @@ const translations = {
     navAchievements: "Achievements",
     navTeaching: "Teaching & Mentorship",
     navLifeStory: "Life Story",
+    navActivities: "Other Activities",
     navConnect: "Connect",
     getInTouchBtn: "Get in Touch",
     
     // Hero
+    heroDevBadge: 'Designed & Built by <a href="https://nexgencodify.in" target="_blank" rel="noopener noreferrer" class="nexgen-brand-link">NexGenCodify</a>',
     heroTag: "✦ Progressive Agri-Entrepreneur & Agricultural Innovator",
     heroName: "Dr. Thimmegowda <span>M.K. (Santhosh)</span>",
     heroRole1: "Farmer",
@@ -92,6 +94,12 @@ const translations = {
     award14Title: "UAS Bangalore Diamond Jubilee Honor",
     award14Org: "GKVK, UAS Bangalore",
     award14Desc: "Special agricultural honor conferred at University of Agricultural Sciences Bangalore Diamond Jubilee.",
+    award15Title: "Kayaka Shri Award",
+    award15Org: "Kalamandira Mandya • Harsha Samaj Seva Foundation",
+    award15Desc: "Prestigious state honor conferred at Kalamandira Mandya by Harsha Samaj Seva Foundation for dedicated community and agricultural upliftment.",
+    award16Title: "Karunada Chetana Award",
+    award16Org: "Spoorthi Kala Trust Bengaluru",
+    award16Desc: "Conferred by Spoorthi Kala Trust Bengaluru in recognition of exceptional service to Karnataka agriculture and farmer empowerment.",
     extraHonorsTitle: "And Felicitations by Numerous State Organizations & Academic Bodies",
     extraHonorsDesc: "Dozens of farmer federations, community councils, and academic trusts across Karnataka have felicitated Dr. Thimmegowda for his inspiring leadership.",
     pillTag1: "Udyami Vokkaliga",
@@ -141,19 +149,19 @@ const translations = {
     methodSub: "From straw selection to scientific pad & fan evaporative cooling chamber construction — Dr. Santhosh Thimmegowda's complete hands-on protocol.",
     step1Num: "01",
     step1Badge: "Raw Material Selection",
-    step1Title: "Selection of Quality Paddy Straw (ಹುಲ್ಲಿನ ಆಯ್ಕೆ)",
+    step1Title: "Selection of Quality Paddy Straw",
     step1Desc: "Choosing disease-free, well-matured, unrotted golden paddy straw. High-quality dry straw ensures rapid mycelial run, zero fungal contamination, and bumper harvest.",
     step2Num: "02",
     step2Badge: "Chopping & Water Soaking",
-    step2Title: "Straw Chopping & Water Soaking (ಹುಲ್ಲನ್ನು ಕತ್ತರಿಸಿ ನೆನೆಸುವುದು)",
+    step2Title: "Straw Chopping & Water Soaking",
     step2Desc: "Chopping straw into 1–2 inch bits using a chaff cutter machine, followed by soaking in clean water to achieve optimum 65–70% moisture content for bed laying.",
     step3Num: "03",
-    step3Badge: "Low-Cost Setup ☝️",
-    step3Title: "Simple Mushroom Room Construction (ಸರಳವಾಗಿ ಕೊಠಡಿ ನಿರ್ಮಾಣ ☝️)",
+    step3Badge: "Low-Cost Setup",
+    step3Title: "Simple Low-Cost Room Construction",
     step3Desc: "Economical, accessible mushroom room construction using bamboo poles, green shade netting, and gunny cloth to sustain essential coolness and humidity on a shoestring budget.",
     step4Num: "04",
-    step4Badge: "Hi-Tech Climate Control 🥳",
-    step4Title: "Scientific Pad & Fan Chamber Construction (ವೈಜ್ಞಾನಿಕ ಪ್ಯಾಡ್ & ಫ್ಯಾನ್ ನಿರ್ಮಾಣ 🥳)",
+    step4Badge: "Hi-Tech Climate Control",
+    step4Title: "Scientific Pad & Fan Climate Chamber",
     step4Desc: "High-tech automated cultivation room fitted with cellulose evaporative cooling pads and heavy-duty exhaust fans, sustaining 22–26°C and 85–90% humidity all year round.",
     krishiChakraBadge: "Zero-Waste Circular Economy",
     krishiChakraTitle: "Mushroom Cultivation Circular Flow: 'ಅಣಬೆ ಬೇಸಾಯ ಕೃಷಿ ಚಕ್ರ'",
@@ -212,6 +220,60 @@ const translations = {
     ch6Text2: "Guided by the philosophy 'A Tree for Every Joyous Celebration' (ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ), we plant and nurture saplings in public spaces on our birthdays and commemorative occasions. We participate in environmental cleanliness drives, mobilize farmers to attend beneficial agricultural seminars, and visit rural schools during spare hours with headmasters' permission to spark agricultural curiosity and respect among school children. We organize educational exposure tours for farmers once or twice a year. Crucially, I conduct free training for distressed farmers and personally fund and distribute high-grade seeds and essential farm implements to struggling families, extending an open hand of support to anyone facing hardship.",
     ch6Quote: "\"A Tree for Every Joy — Wiping the tears of a distressed farmer and giving back green life to mother nature is the highest fulfillment of a human life.\"",
 
+    // Other Activities & Leisure Time
+    activitiesBadge: "Part V • Other Activities & Leisure Time",
+    activitiesTitle: "Heritage Preservation, Harvest Art, Farmer Unity & Travel",
+    activitiesSub: "A step-by-step glimpse into Dr. Thimmegowda's agrarian antiquities, creative harvest art, FPO leadership, green initiatives, farmer welfare, and annual travels.",
+    act1Badge: "Heritage & Antiquities Preservation",
+    act1Title: "Collection & Exhibition of 150-Year-Old Wooden Bullock Cart",
+    act1Desc: "Dr. Santhosh has a deep passion for discovering and preserving ancient agricultural relics of our ancestors. He meticulously restored a 150-year-old historic wooden bullock cart, pairing it with pure white Hallikar draught bullocks. He exhibited it at mega state gatherings, including the historic 87th All India Kannada Sahitya Sammelana in Mandya, reviving the grandeur of Karnataka's rural agrarian legacy.",
+    act1HlTitle: "Times of India & Statewide Media Acclaim",
+    act1HlDesc: "Featured extensively in national dailies under 'Farmer & 150-Yr-Old Bullock Cart' at the 87th Sahitya Sammelana.",
+    act1ImgCap1: "Dr. Santhosh proudly driving the 150-year-old historic wooden cart with native Hallikar bullocks.",
+    act1Thumb1: "87th Sahitya Sammelana",
+    act1Thumb2: "The Times of India",
+    act1VideoTitle: "Live Video Chronicles of the 150-Year-Old Historic Bullock Cart",
+    act1Video1Tag: "Village Procession Video",
+    act1Video1Desc: "Dr. Santhosh, his wife, and daughter traveling joyfully on the 150-year-old decorated wooden cart driven by native Hallikar white oxen.",
+    act1Video2Tag: "Sacred Puja Ritual & Highway March",
+    act1Video2Desc: "Traditional auspicious puja ceremony and grand highway procession of the historic cart to the 87th Sahitya Sammelana in Mandya.",
+    act2Badge: "Creative Harvest Art & Felicitation Baskets",
+    act2Title: "Artwork from Fruits, Grains & Vegetables + Felicitation Baskets for Dignitaries",
+    act2Desc: "Creating exquisite portraits and artworks using indigenous grains, seeds, pulses, fruits, and fresh farm vegetables is one of Dr. Santhosh's cherished artistic talents. Replacing artificial plastic bouquets and shawls, he pioneered handcrafting artistic 'Vegetable Honor Baskets' ('ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ') arranged from farm-fresh organic produce to felicitate visiting dignitaries and national leaders at public events.",
+    act2HlTitle: "Vegetable Carving of Former PM Shri H.D. Deve Gowda",
+    act2HlDesc: "Hand-carved lifelike portrait of Former Prime Minister and presentation of organic felicitation basket to Former CM H.D. Kumaraswamy.",
+    act2ImgCap1: "Intricate lifelike vegetable carving portrait of Former Prime Minister Shri H.D. Deve Gowda.",
+    act2ImgCap2: "Exquisite organic vegetable felicitation basket presented to Former CM Shri H.D. Kumaraswamy.",
+    act3Badge: "Farmer Solidarity & FPO Secretary Service",
+    act3Title: "Organizing Farmers into FPO Groups & Direct Farm-to-Consumer Marketing",
+    act3Desc: "Serving with integrity as the Secretary of Farmer Producer Organizations (FPO), Dr. Thimmegowda has organized small and marginal farmers into empowered producer groups. Eliminating exploitative middlemen entirely, he created direct sales channels with Reliance Retail Limited and consumer platforms, guaranteeing fair remunerative prices and sustainable financial resilience for hundreds of farming families.",
+    act3HlTitle: "Integrated Organic Horticulture & Direct Consumer Access",
+    act3HlDesc: "Tricolor harvest arrangements, organic papaya plantations, and direct profitable market links for rural growers.",
+    act3ImgCap1: "Tricolor national flag art crafted from grains & vegetables, alongside thriving organic papaya orchards.",
+    act4Badge: "Green Mission & Mandya Farmer Ambassador",
+    act4Title: "Gifting Saplings at Gatherings & 'A Tree for Every Celebration' Mission",
+    act4Desc: "At any formal meeting, cultural program, or celebration, Dr. Thimmegowda honors guests by gifting live tree saplings instead of ephemeral gifts. Under his personal movement 'A Tree for Every Celebration' (ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ), he plants and personally nurtures trees in public spaces and roadsides on birthdays and anniversaries. Across Karnataka, he serves as a proud goodwill ambassador voicing the interests and innovations of Mandya district farmers.",
+    act4Hl1Title: "'A Tree for Every Celebration' Lifelong Care",
+    act4Hl1Desc: "A steadfast commitment to not just plant saplings on milestones, but nurture them until they grow into grand trees.",
+    act4Hl2Title: "Proud Goodwill Ambassador for Mandya Farmers",
+    act4Hl2Desc: "Representing the voice, creativity, and scientific innovations of Mandya farmers at statewide platforms.",
+    act5Badge: "Grassroots Relief & Farmer Welfare",
+    act5Title: "Guiding Distressed Farmers & Self-Funded Seeds and Equipment Assistance",
+    act5Desc: "When farmers face severe crop distress, debt anxiety, or market collapse, Dr. Thimmegowda provides free psychological counseling and scientific guidance. Furthermore, utilizing his own hard-earned savings, he donates certified quality seeds, mushroom cultivation spawn kits, and agricultural implements free of charge to distressed farmers, giving them a second chance to stand independently with pride.",
+    act5HlTitle: "Personal Philanthropy to Wipe the Tears of Striving Farmers",
+    act5HlDesc: "Providing free training, certified seeds, and essential equipment at his own expense to revive distressed agrarian households.",
+    act6Badge: "Annual Study Tours & Family Flight Travel",
+    act6Title: "Annual Agricultural Study & Family Flight Tours Across India",
+    act6Desc: "To rejuvenate the mind and discover cutting-edge agricultural advancements, Dr. Thimmegowda embarks on annual study tours once or twice a year with his family and fellow farmers. Flying across diverse states, they explore agricultural research stations, historic monuments, and natural wonders—bringing back fresh scientific insights and cherished family memories that revitalize farming zeal.",
+    act6HlTitle: "A Farmer's Dreams Flying Beyond Horizons",
+    act6HlDesc: "Cherished moments boarding flights with family and fellow farmers, expanding horizons and discovering new agricultural paradigms.",
+    act6ImgCap1: "Warm family moments boarding an IndiGo aircraft on the airport tarmac during their annual study tour.",
+    gratitudeBadge: "Heartfelt Gratitude • ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು",
+    gratitudeTitle: "Deepest Gratitude to Everyone Who Read Our Story & Continues to Support Us",
+    gratitudeQuote: "\"Heartfelt gratitude to each one of you who took the time to read our story and understand our agricultural journey, and our deepest thanks to everyone encouraging and standing with us. Thank you 🎉💚 🥰 🙏\"",
+    gratitudeSign: "- Dr. Thimmegowda M.K. (Santhosh), Family & Farming Fraternity",
+    gratitudeSignSub: "Maradipura, Nagamangala, Mandya District, Karnataka",
+
     // Connect
     connectBadge: "Academic & Collaborative Exchange",
     connectTitle: "Connect with Dr. Thimmegowda M.K.",
@@ -237,6 +299,7 @@ const translations = {
     footerNavTitle: "Quick Navigation",
     footerCollabTitle: "Collaborate",
     footerCopy: "© 2026 Dr. Thimmegowda M.K. (Santhosh). All rights reserved.",
+    footerDevText: 'Designed & Built by <a href="https://nexgencodify.in" target="_blank" rel="noopener noreferrer" class="nexgen-brand-link">NexGenCodify</a>',
     footerBlessing: "Agriculture is Life • Prosperity Through Scientific Farming"
   },
 
@@ -247,10 +310,12 @@ const translations = {
     navAchievements: "ಸಾಧನೆಗಳು",
     navTeaching: "ಬೋಧನೆ ಮತ್ತು ತರಬೇತಿ",
     navLifeStory: "ಜೀವನ ಚರಿತ್ರೆ",
+    navActivities: "ಇತರೆ ಚಟುವಟಿಕೆಗಳು",
     navConnect: "ಸಂಪರ್ಕಿಸಿ",
     getInTouchBtn: "ಸಂಪರ್ಕಿಸಿ",
     
     // Hero
+    heroDevBadge: 'Designed & Built by <a href="https://nexgencodify.in" target="_blank" rel="noopener noreferrer" class="nexgen-brand-link">NexGenCodify</a>',
     heroTag: "✦ ಪ್ರಗತಿಪರ ಕೃಷಿ ಸಂಶೋಧಕರು ಮತ್ತು ಉದ್ಯಮಿ",
     heroName: "ಡಾ. ತಿಮ್ಮೇಗೌಡ <span>ಎಂ.ಕೆ. (ಸಂತೋಷ್)</span>",
     heroRole1: "ರೈತರು (Farmer)",
@@ -328,6 +393,12 @@ const translations = {
     award14Title: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರು ವಜ್ರ ಮಹೋತ್ಸವ ಸನ್ಮಾನ",
     award14Org: "GKVK, UAS Bangalore",
     award14Desc: "ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾನಿಲಯ ಬೆಂಗಳೂರಿನ ಐತಿಹಾಸಿಕ ವಜ್ರ ಮಹೋತ್ಸವ ಸಮಾರಂಭದಲ್ಲಿ ಲಭಿಸಿದ ಕೃಷಿ ಸನ್ಮಾನ.",
+    award15Title: "ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ",
+    award15Org: "ಕಲಾಮಂದಿರ ಮಂಡ್ಯ • ಹರ್ಷ ಸಮಾಜ ಸೇವಾ ಫೌಂಡೇಶನ್",
+    award15Desc: "ಸಮಾಜ ಸೇವೆ ಹಾಗೂ ಕೃಷಿ ಕ್ಷೇತ್ರದಲ್ಲಿನ ನಿಸ್ವಾರ್ಥ ಶ್ರಮ ಮತ್ತು ರೈತ ಸಮುದಾಯದ ಏಳಿಗೆಗಾಗಿ ಮಂಡ್ಯದ ಕಲಾಮಂದಿರದಲ್ಲಿ ಪ್ರದಾನ ಮಾಡಲಾದ ಕಾಯಕ ಶ್ರೀ ಪ್ರಶಸ್ತಿ.",
+    award16Title: "ಕರುನಾಡ ಚೇತನ ಪ್ರಶಸ್ತಿ",
+    award16Org: "ಸ್ಪೂರ್ತಿ ಕಲಾ ಟ್ರಸ್ಟ್ ಬೆಂಗಳೂರು",
+    award16Desc: "ಕರ್ನಾಟಕದ ಕೃಷಿ ಮತ್ತು ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿಗೆ ನೀಡಿದ ಅನನ್ಯ ಕೊಡುಗೆ ಹಾಗೂ ರೈತರ ಸಬಲೀಕರಣಕ್ಕಾಗಿ ಸಂದ ಗೌರವ.",
     extraHonorsTitle: "ಹಾಗೂ ಹತ್ತು ಹಲವು ಸಂಘ ಸಂಸ್ಥೆಗಳ ಸಭೆ ಸಮಾರಂಭಗಳಲ್ಲಿ ಗೌರವ ಸನ್ಮಾನ",
     extraHonorsDesc: "ರಾಜ್ಯಾದ್ಯಂತ ನೂರಾರು ರೈತ ಸಂಘಟನೆಗಳು, ಶೈಕ್ಷಣಿಕ ಪೀಠಗಳು ಹಾಗೂ ಸಾಮಾಜಿಕ ಟ್ರಸ್ಟ್‌ಗಳು ಡಾ. ತಿಮ್ಮೇಗೌಡರ ಕೃಷಿ ಸೇವೆಯನ್ನು ಮುಕ್ತಕಂಠದಿಂದ ಶ್ಲಾಘಿಸಿ ಸನ್ಮಾನಿಸಿವೆ.",
     pillTag1: "ಉದ್ಯಮಿ ಒಕ್ಕಲಿಗ",
@@ -377,19 +448,19 @@ const translations = {
     methodSub: "ಹುಲ್ಲಿನ ಆಯ್ಕೆಯಿಂದ ಅತ್ಯಾಧುನಿಕ ಪ್ಯಾಡ್ & ಫ್ಯಾನ್ ಕೊಠಡಿ ನಿರ್ಮಾಣದವರೆಗೆ — ಡಾ. ಸಂತೋಷ್ ತಿಮ್ಮೇಗೌಡರ ಸಮಗ್ರ ಪ್ರಾಯೋಗಿಕ ಸೂತ್ರ.",
     step1Num: "೦೧",
     step1Badge: "ಕಚ್ಚಾ ಸಾಮಗ್ರಿ ಆಯ್ಕೆ",
-    step1Title: "ಹುಲ್ಲಿನ ಆಯ್ಕೆ (Paddy Straw Selection)",
+    step1Title: "ಹುಲ್ಲಿನ ಆಯ್ಕೆ",
     step1Desc: "ರೋಗರಹಿತ, ಉತ್ತಮವಾಗಿ ಬಲಿತ, ಶುದ್ಧ ಹೊಂಬಣ್ಣದ ಒಣ ಭತ್ತದ ಹುಲ್ಲಿನ ಆಯ್ಕೆ. ಅಣಬೆಯ ಉತ್ತಮ ಕವಕಜಾಲ ಬೆಳವಣಿಗೆಗೆ ಸ್ವಚ್ಛ ಮತ್ತು ಶಿಲೀಂಧ್ರ ಮುಕ್ತ ಹುಲ್ಲು ಅತ್ಯಗತ್ಯ.",
     step2Num: "೦೨",
     step2Badge: "ಕತ್ತರಿಸುವುದು ಮತ್ತು ನೆನೆಸುವುದು",
     step2Title: "ಹುಲ್ಲನ್ನು ಚಿಕ್ಕ ಚಿಕ್ಕದಾಗಿ ಕತ್ತರಿಸಿ ನೀರಿನಲ್ಲಿ ನೆನೆಸುವುದು",
     step2Desc: "ಯಂತ್ರದ ಮೂಲಕ ಹುಲ್ಲನ್ನು ೧ ರಿಂದ ೨ ಇಂಚು ಸಣ್ಣದಾಗಿ ಕತ್ತರಿಸಿ, ನಂತರ ಶುದ್ಧ ನೀರಿನಲ್ಲಿ ನೆನೆಸಿ, ಹದವಾದ ತೇವಾಂಶ ಕಾಪಾಡಿಕೊಂಡು ಅಣಬೆ ಬೆಡ್‌ಗಳಿಗೆ ಸಿದ್ಧಪಡಿಸುವುದು.",
     step3Num: "೦೩",
-    step3Badge: "ಕಡಿಮೆ ವೆಚ್ಚದ ಮಾದರಿ ☝️",
-    step3Title: "ಸರಳವಾಗಿ ಕೊಠಡಿ ನಿರ್ಮಾಣ ☝️",
+    step3Badge: "ಕಡಿಮೆ ವೆಚ್ಚದ ಮಾದರಿ",
+    step3Title: "ಸರಳ ಕೊಠಡಿ ನಿರ್ಮಾಣ ಮಾದರಿ",
     step3Desc: "ಕಡಿಮೆ ಬಂಡವಾಳದಲ್ಲಿ ಸ್ಥಳೀಯ ಬಿದಿರು, ಕಂಬಗಳು, ಗ್ರೀನ್ ಶೇಡ್ ನೆಟ್ ಮತ್ತು ಗೋಣಿ ಚೀಲಗಳನ್ನು ಬಳಸಿ ತೇವಾಂಶ ಮತ್ತು ತಂಪು ವಾತಾವರಣ ಕಾಪಾಡುವ ಸರಳ ಕೊಠಡಿ ನಿರ್ಮಾಣ.",
     step4Num: "೦೪",
-    step4Badge: "ಹೈಟೆಕ್ ತಂತ್ರಜ್ಞಾನ 🥳",
-    step4Title: "ವೈಜ್ಞಾನಿಕವಾಗಿ (ಪ್ಯಾಡ್ ಎಂಡ್ ಫ್ಯಾನ್) ಅಳವಡಿಸಿ ಕೊಠಡಿಯ ನಿರ್ಮಾಣ 🥳",
+    step4Badge: "ಹೈಟೆಕ್ ತಂತ್ರಜ್ಞಾನ",
+    step4Title: "ವೈಜ್ಞಾನಿಕ ಪ್ಯಾಡ್ & ಫ್ಯಾನ್ ಕೊಠಡಿ ನಿರ್ಮಾಣ",
     step4Desc: "ಸೆಲ್ಯುಲೋಸ್ ಕೂಲಿಂಗ್ ಪ್ಯಾಡ್ ಮತ್ತು ಹೆವಿ ಎಕ್ಸಾಸ್ಟ್ ಫ್ಯಾನ್‌ಗಳನ್ನು ಅಳವಡಿಸಿ, ತಾಪಮಾನ (೨೨-೨೬°C) ಮತ್ತು ಆರ್ದ್ರತೆ (೮೫-೯೦%) ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿಯಂತ್ರಿಸುವ ಹೈಟೆಕ್ ಕೊಠಡಿ ನಿರ್ಮಾಣ.",
     krishiChakraBadge: "ಶೂನ್ಯ ತ್ಯಾಜ್ಯ ಮರುಬಳಕೆ ಮಾದರಿ",
     krishiChakraTitle: "ಅಣಬೆ ಬೇಸಾಯ ಕೃಷಿ ಚಕ್ರ — Mushroom Cultivation Recycling",
@@ -448,6 +519,60 @@ const translations = {
     ch6Text2: "'ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ಎಂಬಂತೆ ನಮ್ಮ ಜನ್ಮದಿನ ಹಾಗೂ ವಿಶೇಷ ದಿನಗಳಲ್ಲಿ ಸಾರ್ವಜನಿಕವಾಗಿ ಅಲ್ಲಲ್ಲೇ ಗಿಡಗಳನ್ನು ನೆಟ್ಟು ಪೋಷಿಸುವುದು, ಪರಿಸರ ಸ್ವಚ್ಛಗೊಳಿಸುವ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದು, ರೈತರಿಗೆ ಅನುಕೂಲವಾಗುವ ಸಭೆ-ಸಮಾರಂಭಗಳಿಗೆ ನಾವು ಭಾಗವಹಿಸುವುದಲ್ಲದೆ ಇತರ ರೈತರನ್ನೂ ಕರೆದೊಯ್ಯುವುದು, ಬಿಡುವಿನ ಸಮಯದಲ್ಲಿ ಶಾಲೆಗಳಿಗೆ ತೆರಳಿ ಮುಖ್ಯೋಪಾಧ್ಯಾಯರ ಅನುಮತಿ ಪಡೆದು ಶಾಲಾ ಮಕ್ಕಳಲ್ಲಿ ಕೃಷಿ ಬಗ್ಗೆ ಅರಿವು ಮೂಡಿಸುವುದು, ವರ್ಷಕ್ಕೆ ಒಂದೆರಡು ಬಾರಿ ಕುಟುಂಬ ಹಾಗೂ ರೈತರೊಡನೆ ಕೃಷಿ ಪ್ರವಾಸ ಕೈಗೊಳ್ಳುವುದು, ಹಾಗೂ ಸಂಕಷ್ಟದಲ್ಲಿರುವ ರೈತರಿಗೆ ಉಚಿತವಾಗಿ ತರಬೇತಿಗಳನ್ನು ನೀಡಿ ಅವರಿಗೆ ಅವಶ್ಯಕತೆ ಇರುವ ಬಿತ್ತನೆ ಬೀಜ ಹಾಗೂ ಕೃಷಿ ಪರಿಕರಗಳನ್ನು ನನ್ನ ವೈಯಕ್ತಿಕ ಹಣದಿಂದಲೇ ಕೊಟ್ಟು ಸಾರ್ವಜನಿಕವಾಗಿ ಕಷ್ಟದಲ್ಲಿರುವವರಿಗೆ ಸಹಾಯ ಹಸ್ತ ಚಾಚುತ್ತಿದ್ದೇನೆ.",
     ch6Quote: "\"ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ — ನೊಂದ ರೈತನಿಗೆ ಆಸರೆಯಾಗಿ, ಮಣ್ಣಿಗೂ ಮನುಷ್ಯನಿಗೂ ನಿಸ್ವಾರ್ಥ ಪ್ರೀತಿ ನೀಡುವುದೇ ಬದುಕಿನ ನಿಜವಾದ ಸಾರ್ಥಕತೆ.\"",
 
+    // Other Activities & Leisure Time
+    activitiesBadge: "ಭಾಗ ೫ • ಇತರೆ ಚಟುವಟಿಕೆಗಳು & ಬಿಡುವಿನ ಸಮಯ",
+    activitiesTitle: "ಸಾಂಪ್ರದಾಯಿಕ ಪರಂಪರೆ, ಸೃಜನಶೀಲ ಕಲೆ, ರೈತರ ಒಗ್ಗಟ್ಟು & ಪ್ರವಾಸ",
+    activitiesSub: "ಕೃಷಿಯಷ್ಟೇ ಅಲ್ಲದೆ ಗ್ರಾಮೀಣ ಪಳೆಯುಳಿಕೆಗಳ ಸಂರಕ್ಷಣೆ, ತರಕಾರಿ-ಧಾನ್ಯ ಕಲೆ, ರೈತ ಸಂಘಟನೆ, ಗಿಡ ನೆಡುವ ಸಂಕಲ್ಪ ಮತ್ತು ಕುಟುಂಬ ಪ್ರವಾಸದ ಹೆಜ್ಜೆಗಳು.",
+    act1Badge: "ಪ್ರಾಚೀನ ಪರಂಪರೆ & ಪಳೆಯುಳಿಕೆ ಸಂರಕ್ಷಣೆ",
+    act1Title: "ಸಾಂಪ್ರದಾಯಿಕ ಪಳೆಯುಳಿಕೆಗಳ ಸಂಗ್ರಹ ಮತ್ತು ಪ್ರದರ್ಶನ (೧೫೦ ವರ್ಷದ ಮರದ ಬಂಡಿ ಗಾಡಿ)",
+    act1Desc: "ನಮ್ಮ ಪೂರ್ವಜರ ಸಾಂಪ್ರದಾಯಿಕ ಕೃಷಿ ಪಳೆಯುಳಿಕೆಗಳು ಮತ್ತು ಗ್ರಾಮೀಣ ಪುರಾತನ ಪರಿಕರಗಳನ್ನು ಶ್ರದ್ಧೆಯಿಂದ ಸಂಗ್ರಹಿಸಿ ಸಂರಕ್ಷಿಸುವುದು ಇವರ ವಿಶಿಷ್ಟ ಹವ್ಯಾಸ. ಬರೋಬ್ಬರಿ ೧೫೦ ವರ್ಷ ಹಳೆಯ ಐತಿಹಾಸಿಕ ಮರದ ಬಂಡಿ ಗಾಡಿಯನ್ನು (Bullock Cart) ಸುಸ್ಥಿತಿಯಲ್ಲಿ ಕಾಪಾಡಿಕೊಂಡು, ಶುದ್ಧ ಹಳ್ಳಿಕಾರ್ ಬಿಳಿ ಎತ್ತುಗಳೊಂದಿಗೆ ಸಿಂಗರಿಸಿ ಮಂಡ್ಯದಲ್ಲಿ ನಡೆದ ೮೭ನೇ ಅಖಿಲ ಭಾರತ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನ ಸೇರಿದಂತೆ ನಾಡಿನ ಬೃಹತ್ ಸಭೆ-ಸಮಾರಂಭಗಳಲ್ಲಿ ಪ್ರದರ್ಶಿಸಿ ಗ್ರಾಮೀಣ ಸಂಸ್ಕೃತಿಯ ಗತವೈಭವವನ್ನು ಮರುಕಳಿಸಿದ್ದಾರೆ.",
+    act1HlTitle: "ಟೈಮ್ಸ್ ಆಫ್ ಇಂಡಿಯಾ & ರಾಜ್ಯ ಮಾಧ್ಯಮಗಳ ಮೆಚ್ಚುಗೆ",
+    act1HlDesc: "೮೭ನೇ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನದಲ್ಲಿ 'Farmer & 150-Yr-Old Bullock Cart' ಶೀರ್ಷಿಕೆಯಲ್ಲಿ ರಾಷ್ಟ್ರೀಯ ಪತ್ರಿಕೆಗಳ ಪ್ರಶಂಸೆ.",
+    act1ImgCap1: "ಡಾ. ಸಂತೋಷ್ ಅವರು ಹಳ್ಳಿಕಾರ್ ಎತ್ತುಗಳೊಂದಿಗೆ ೧೫೦ ವರ್ಷದ ಐತಿಹಾಸಿಕ ಮರದ ಬಂಡಿ ಗಾಡಿ ನಡೆಸುತ್ತಿರುವ ಸಂಭ್ರಮ",
+    act1Thumb1: "೮೭ನೇ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನ",
+    act1Thumb2: "ಟೈಮ್ಸ್ ಆಫ್ ಇಂಡಿಯಾ",
+    act1VideoTitle: "೧೫೦ ವರ್ಷದ ಮರದ ಬಂಡಿ ಗಾಡಿಯ ಜೀವಂತ ಸಾಕ್ಷ್ಯಚಿತ್ರ ವಿಡಿಯೋಗಳು",
+    act1Video1Tag: "ಗ್ರಾಮ ಸಂಚಾರ ವಿಡಿಯೋ",
+    act1Video1Desc: "ಡಾ. ಸಂತೋಷ್ ಅವರು ಕುಟುಂಬ ಸಮೇತ ೧೫೦ ವರ್ಷದ ಮರದ ಬಂಡಿ ಗಾಡಿಯಲ್ಲಿ ಹಳ್ಳಿಕಾರ್ ಎತ್ತುಗಳೊಂದಿಗೆ ಸಾಗುತ್ತಿರುವ ದೃಶ್ಯ.",
+    act1Video2Tag: "ಪೂಜಾ ವಿಧಿವಿಧಾನ & ಹೆದ್ದಾರಿ ಮೆರವಣಿಗೆ",
+    act1Video2Desc: "೮೭ನೇ ಅಖಿಲ ಭಾರತ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಕ್ಕೆ ತೆರಳುವ ಮುನ್ನ ಬಂಡಿ ಗಾಡಿಗೆ ನಡೆದ ಮಂಗಳಕರ ಪೂಜೆ ಹಾಗೂ ಹೆದ್ದಾರಿ ಮೆರವಣಿಗೆ.",
+    act2Badge: "ಸೃಜನಶೀಲ ಹಣ್ಣು-ತರಕಾರಿ ಕಲೆ & ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ",
+    act2Title: "ಹಣ್ಣು, ತರಕಾರಿ, ಧಾನ್ಯಗಳಿಂದ ಕಲಾತ್ಮಕ ಚಿತ್ರ & ಗಣ್ಯರಿಗೆ 'ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ' ಗೌರವ",
+    act2Desc: "ಸ್ಥಳೀಯವಾಗಿ ಬೆಳೆದ ಕಾಳುಗಳು, ಧಾನ್ಯಗಳು, ಹಣ್ಣು ಮತ್ತು ತರಕಾರಿಗಳಿಂದ ಅದ್ಭುತ ಚಿತ್ರಗಳನ್ನು ಬಿಡಿಸುವುದು ಮತ್ತು ತರಕಾರಿ ಕೆತ್ತನೆಯ ಮೂಲಕ ಗಣ್ಯರ ಭಾವಚಿತ್ರಗಳನ್ನು ರಚಿಸುವುದು ಇವರ ಅಪೂರ್ವ ಕಲೆ. ಪ್ಲಾಸ್ಟಿಕ್ ಹೂಗುಚ್ಛ ಅಥವಾ ಶಾಲುಗಳ ಬದಲಿಗೆ, ತಮ್ಮ ತೋಟದಲ್ಲಿ ನೈಸರ್ಗಿಕವಾಗಿ ಬೆಳೆದ ತರಕಾರಿಗಳನ್ನು ಸುಂದರವಾಗಿ ಜೋಡಿಸಿ 'ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ'ಯನ್ನಾಗಿ ಮಾಡಿ ಸಭೆ-ಸಮಾರಂಭಗಳಿಗೆ ಬರುವ ಗಣ್ಯರಿಗೆ ಗೌರವಪೂರ್ವಕವಾಗಿ ಅರ್ಪಿಸುವ ಪರಿಸರಸ್ನೇಹಿ ಸಂಪ್ರದಾಯವನ್ನು ಹುಟ್ಟುಹಾಕಿದ್ದಾರೆ.",
+    act2HlTitle: "ಮಾಜಿ ಪ್ರಧಾನಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡರ ತರಕಾರಿ ಕೆತ್ತನೆ ಚಿತ್ರ",
+    act2HlDesc: "ಹಣ್ಣು-ತರಕಾರಿಗಳಿಂದ ಮಾಜಿ ಪ್ರಧಾನಿಗಳ ಭಾವಚಿತ್ರ ಕೆತ್ತನೆ ಹಾಗೂ ಮಾಜಿ ಸಿಎಂ ಹೆಚ್.ಡಿ. ಕುಮಾರಸ್ವಾಮಿಯವರಿಗೆ ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ ಸಲ್ಲಿಕೆ.",
+    act2ImgCap1: "ಮಾಜಿ ಪ್ರಧಾನಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡರ ಮುಖಚಿತ್ರದ ಅದ್ಭುತ ತರಕಾರಿ ಕೆತ್ತನೆ ಕಲಾಕೃತಿ",
+    act2ImgCap2: "ಮಾಜಿ ಸಿಎಂ ಶ್ರೀ ಹೆಚ್.ಡಿ. ಕುಮಾರಸ್ವಾಮಿ ಅವರಿಗೆ ಅರ್ಪಿಸಲಾದ ಸಾವಯವ ತರಕಾರಿಗಳ ಸುಂದರ ಸನ್ಮಾನಿತ ಬುಟ್ಟಿ",
+    act3Badge: "ರೈತರ ಸಂಘಟನೆ & FPO ಕಾರ್ಯದರ್ಶಿ ಸೇವೆ",
+    act3Title: "ರೈತರನ್ನು ಸಂಘಟಿಸಿ FPO ಮೂಲಕ ಉತ್ಪನ್ನಗಳ ನೇರ ಮಾರಾಟ (ಕಾರ್ಯದರ್ಶಿ ಸೇವೆ)",
+    act3Desc: "ರೈತ ಉತ್ಪಾದಕ ಸಂಸ್ಥೆಗಳ (FPO) ಕಾರ್ಯದರ್ಶಿಯಾಗಿ ನಿಷ್ಠೆಯಿಂದ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿರುವ ಡಾ. ತಿಮ್ಮೇಗೌಡರು, ಸಣ್ಣ ಹಾಗೂ ಅತಿ ಸಣ್ಣ ರೈತರನ್ನು ಒಗ್ಗೂಡಿಸಿ ಗುಂಪುಗಳನ್ನು ರಚಿಸಿದ್ದಾರೆ. ಮಧ್ಯವರ್ತಿಗಳ ಶೋಷಣೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಪ್ಪಿಸಿ, ರೈತರ ತಾಜಾ ಉತ್ಪನ್ನಗಳನ್ನು ನೇರವಾಗಿ ರಿಲಯನ್ಸ್ ರಿಟೇಲ್ ಹಾಗೂ ಗ್ರಾಹಕರಿಗೆ ನ್ಯಾಯಯುತ ಬೆಲೆಗೆ ಮಾರಾಟ ಮಾಡುವ ವ್ಯವಸ್ಥೆಯನ್ನು ಸೃಷ್ಟಿಸಿ ನೂರಾರು ರೈತ ಕುಟುಂಬಗಳ ಆರ್ಥಿಕ ಚೇತರಿಕೆಗೆ ಬೆನ್ನೆಲುಬಾಗಿ ನಿಂತಿದ್ದಾರೆ.",
+    act3HlTitle: "ಸಾವಯವ ಸಮಗ್ರ ತೋಟಗಾರಿಕೆ & ನೇರ ಗ್ರಾಹಕ ಮಾರುಕಟ್ಟೆ",
+    act3HlDesc: "ಪಪ್ಪಾಯಿ, ತರಕಾರಿ ಮತ್ತು ಧಾನ್ಯಗಳ ತ್ರಿವರ್ಣ ಧ್ವಜ ಕಲಾ ಸಂಯೋಜನೆ ಮತ್ತು ರೈತರಿಗೆ ನ್ಯಾಯಯುತ ಲಾಭ.",
+    act3ImgCap1: "ಧಾನ್ಯ-ತರಕಾರಿಗಳಿಂದ ನಿರ್ಮಿಸಿದ ರಾಷ್ಟ್ರಧ್ವಜ ಹಾಗೂ ಸಮೃದ್ಧ ಸಾವಯವ ಪಪ್ಪಾಯಿ ತೋಟದ ಸಂಭ್ರಮ",
+    act4Badge: "ಹಸಿರು ಸಂಕಲ್ಪ & ಮಂಡ್ಯ ರೈತರ ರಾಯಭಾರಿ",
+    act4Title: "ಸಭೆ-ಸಮಾರಂಭಗಳಲ್ಲಿ ಗಿಡಗಳನ್ನು ಉಡುಗೊರೆಯಾಗಿ ನೀಡುವುದು & 'ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ಸಂಕಲ್ಪ",
+    act4Desc: "ಯಾವುದೇ ಸಭೆ, ಸಮಾರಂಭ, ಅತಿಥಿ ಸತ್ಕಾರವಿರಲಿ — ಡಾ. ತಿಮ್ಮೇಗೌಡರು ಗಿಡಗಳನ್ನು ಉಡುಗೊರೆಯಾಗಿ ನೀಡುವ ಹಸಿರು ಸಂಸ್ಕೃತಿಯನ್ನು ರೂಢಿಸಿಕೊಂಡಿದ್ದಾರೆ. ತಮ್ಮ ಜನ್ಮದಿನ, ವಿವಾಹ ವಾರ್ಷಿಕೋತ್ಸವ ಹಾಗೂ ಕುಟುಂಬದ ಪ್ರತಿಯೊಂದು ಶುಭ ಸಂದರ್ಭಗಳಲ್ಲಿ 'ಸಂತೋಷ ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ಅಭಿಯಾನದಡಿ ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ, ರಸ್ತೆ ಬದಿಗಳಲ್ಲಿ ಗಿಡಗಳನ್ನು ನೆಟ್ಟು ಸ್ವತಃ ತಾವೇ ಪೋಷಿಸುತ್ತಿದ್ದಾರೆ. ಸಕ್ಕರೆ ನಾಡು ಮಂಡ್ಯ ಜಿಲ್ಲೆಯ ರೈತರ ಸದಾಶಯ ಮತ್ತು ಹಿತಾಸಕ್ತಿಯನ್ನು ರಾಜ್ಯಾದ್ಯಂತ ಹೆಮ್ಮೆಯಿಂದ ಪ್ರತಿನಿಧಿಸುವ ರೈತ ರಾಯಭಾರಿಯಾಗಿ ಗುರುತಿಸಿಕೊಂಡಿದ್ದಾರೆ.",
+    act4Hl1Title: "'ಸಂಭ್ರಮಕ್ಕೊಂದು ಗಿಡ' ನಿರಂತರ ಪೋಷಣೆ",
+    act4Hl1Desc: "ವಿಶೇಷ ದಿನಗಳಲ್ಲಿ ಕೇವಲ ಗಿಡ ನೆಡುವುದಷ್ಟೇ ಅಲ್ಲದೆ, ಅವು ಹೆಮ್ಮರವಾಗುವವರೆಗೆ ಸ್ವತಃ ಪೋಷಿಸುವ ಬದ್ಧತೆ.",
+    act4Hl2Title: "ಮಂಡ್ಯ ಜಿಲ್ಲೆಯ ಹೆಮ್ಮೆಯ ರೈತ ರಾಯಭಾರಿ",
+    act4Hl2Desc: "ರಾಜ್ಯ ಹಾಗೂ ರಾಷ್ಟ್ರಮಟ್ಟದ ವೇದಿಕೆಗಳಲ್ಲಿ ಮಂಡ್ಯ ಜಿಲ್ಲೆಯ ಸೃಜನಶೀಲ, ವೈಜ್ಞಾನಿಕ ರೈತರ ಧ್ವನಿಯಾಗಿ ಭಾಗಿ.",
+    act5Badge: "ನಿಸ್ವಾರ್ಥ ಕೃಷಿ ಸಹಾಯ ಹಸ್ತ",
+    act5Title: "ಸಂಕಷ್ಟದಲ್ಲಿರುವ ರೈತರಿಗೆ ಮಾರ್ಗದರ್ಶನ & ಸ್ವಂತ ಖರ್ಚಿನಲ್ಲಿ ಬಿತ್ತನೆ ಬೀಜ ಮತ್ತು ಪರಿಕರಗಳ ನೆರವು",
+    act5Desc: "ಬೆಳೆ ನಷ್ಟ, ಸಾಲದ ಹೊರೆ ಅಥವಾ ಸೂಕ್ತ ಮಾರುಕಟ್ಟೆ ಸಿಗದೆ ಹತಾಶರಾಗಿರುವ ರೈತರಿಗೆ ಮಾನಸಿಕ ಧೈರ್ಯ ಮತ್ತು ವೈಜ್ಞಾನಿಕ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನವನ್ನು ಉಚಿತವಾಗಿ ನೀಡುತ್ತಾರೆ. ಅಷ್ಟೇ ಅಲ್ಲದೆ, ತಮ್ಮ ವೈಯಕ್ತಿಕ ದುಡಿಮೆಯ ಹಣದಿಂದಲೇ ಸಂಕಷ್ಟದಲ್ಲಿರುವ ಬಡ ರೈತರಿಗೆ ಗುಣಮಟ್ಟದ ಬಿತ್ತನೆ ಬೀಜಗಳು, ಅಣಬೆ ಸ್ಪಾನ್ ಕಿಟ್‌ಗಳು ಮತ್ತು ಕೃಷಿ ಪರಿಕರಗಳನ್ನು ಉಚಿತವಾಗಿ ನೀಡಿ, ಅವರು ಪುನಃ ಸ್ವಾವಲಂಬಿಯಾಗಿ ಬದುಕು ಕಟ್ಟಿಕೊಳ್ಳಲು ದಾರಿದೀಪವಾಗಿದ್ದಾರೆ.",
+    act5HlTitle: "ಸ್ವಂತ ಖರ್ಚಿನಲ್ಲಿ ರೈತರ ಕಣ್ಣೀರು ಒರೆಸುವ ಕಾಯಕ",
+    act5HlDesc: "ಉಚಿತ ತರಬೇತಿ, ಉಚಿತ ಬಿತ್ತನೆ ಬೀಜ ಹಾಗೂ ಉಪಕರಣಗಳನ್ನು ಒದಗಿಸಿ ನೊಂದ ರೈತನಿಗೆ ಬೆನ್ನೆಲುಬಾಗಿ ನಿಲ್ಲುವ ಮಾನವೀಯತೆ.",
+    act6Badge: "ವಾರ್ಷಿಕ ಕೃಷಿ ಅಧ್ಯಯನ & ಕುಟುಂಬ ವಿಮಾನ ಪ್ರವಾಸ",
+    act6Title: "ವರ್ಷಕ್ಕೆ ಒಂದೆರಡು ಬಾರಿ ಕೃಷಿ ಅಧ್ಯಯನ ಮತ್ತು ಕುಟುಂಬ ವಿಮಾನ ಪ್ರವಾಸ",
+    act6Desc: "ಕೃಷಿಯ ನಿರಂತರ ಪರಿಶ್ರಮದ ನಡುವೆ ಮನಸ್ಸಿಗೆ ಉಲ್ಲಾಸ ಹಾಗೂ ನವೀನ ಕೃಷಿ ತಂತ್ರಜ್ಞಾನಗಳ ಪ್ರಾಯೋಗಿಕ ಜ್ಞಾನ ಪಡೆಯಲು ವರ್ಷಕ್ಕೆ ಒಂದೆರಡು ಬಾರಿ ಕುಟುಂಬ ಹಾಗೂ ಆಪ್ತ ರೈತರೊಂದಿಗೆ ಪ್ರವಾಸ ಕೈಗೊಳ್ಳುವುದು ಇವರ ವಾಡಿಕೆ. ವಿಮಾನದ ಮೂಲಕ ದೂರದ ರಾಜ್ಯಗಳ ಕೃಷಿ ಸಂಶೋಧನಾ ಕೇಂದ್ರಗಳು, ಪ್ರಸಿದ್ಧ ಐತಿಹಾಸಿಕ ತಾಣಗಳು ಹಾಗೂ ನೈಸರ್ಗಿಕ ತಾಣಗಳಿಗೆ ಭೇಟಿ ನೀಡಿ ಹೊಸ ಅನುಭವಗಳನ್ನು ಮೈಗೂಡಿಸಿಕೊಂಡು ಕೃಷಿಗೆ ಹೊಸ ಚೈತನ್ಯ ತುಂಬುತ್ತಾರೆ.",
+    act6HlTitle: "ಆಕಾಶದ ಎತ್ತರಕ್ಕೂ ಹಾರಿದ ಕೃಷಿಕನ ಕನಸು",
+    act6HlDesc: "ಕುಟುಂಬದೊಂದಿಗೆ ವಿಮಾನ ಪ್ರಯಾಣ ಕೈಗೊಂಡು ಜ್ಞಾನ ವಿಸ್ತರಿಸುವ ಹಾಗೂ ಕುಟುಂಬದ ಜತೆಗೂಡಿ ಸಂಭ್ರಮಿಸುವ ಅಪರೂಪದ ಕ್ಷಣಗಳು.",
+    act6ImgCap1: "ಕುಟುಂಬದೊಂದಿಗೆ ವಾರ್ಷಿಕ ಪ್ರವಾಸಕ್ಕಾಗಿ ವಿಮಾನ ನಿಲ್ದಾಣದ ರನ್‌ವೇಯಲ್ಲಿ ಬೋರ್ಡಿಂಗ್ ಮಾಡುತ್ತಿರುವ ಆತ್ಮೀಯ ಕ್ಷಣಗಳು",
+    gratitudeBadge: "ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು • Heartfelt Gratitude",
+    gratitudeTitle: "ಇದುವರೆಗೆ ನಮ್ಮ ಬಗ್ಗೆ ಓದಿ ವಿಷಯವನ್ನು ತಿಳಿದುಕೊಂಡ ನಿಮಗೂ ಮತ್ತು ನಮ್ಮನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತಿರುವ ಎಲ್ಲರಿಗೂ ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು",
+    gratitudeQuote: "\"ಇದುವರೆಗೆ ನಮ್ಮ ಬಗ್ಗೆ ಓದಿ ವಿಷಯವನ್ನು ತಿಳಿದುಕೊಂಡ ನಿಮಗೂ ಮತ್ತು ನಮ್ಮನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತಿರುವ ಎಲ್ಲರಿಗೂ ತುಂಬು ಹೃದಯದ ಧನ್ಯವಾದಗಳು Thank you 🎉💚 🥰 🙏\"",
+    gratitudeSign: "- ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್), ಕುಟುಂಬ ಮತ್ತು ಕೃಷಿ ಬಳಗ",
+    gratitudeSignSub: "ಮರಡಿಪುರ, ನಾಗಮಂಗಲ, ಮಂಡ್ಯ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ",
+
     // Connect
     connectBadge: "ಸಂಪರ್ಕ ಮತ್ತು ಸಮಾಲೋಚನೆ",
     connectTitle: "ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. ಅವರೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ",
@@ -473,6 +598,7 @@ const translations = {
     footerNavTitle: "ಮುಖ್ಯ ಲಿಂಕ್‌ಗಳು",
     footerCollabTitle: "ಸಂಪರ್ಕ ವಿವರಗಳು",
     footerCopy: "© 2026 ಡಾ. ತಿಮ್ಮೇಗೌಡ ಎಂ.ಕೆ. (ಸಂತೋಷ್). ಸರ್ವ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+    footerDevText: 'Designed & Built by <a href="https://nexgencodify.in" target="_blank" rel="noopener noreferrer" class="nexgen-brand-link">NexGenCodify</a>',
     footerBlessing: "ಕೃಷಿಯೇ ಬದುಕು • ವೈಜ್ಞಾನಿಕ ಕೃಷಿಯಿಂದ ಸಮೃದ್ಧಿ"
   }
 };
@@ -592,12 +718,17 @@ document.addEventListener('DOMContentLoaded', () => {
     statsObserver.observe(statsSection);
   }
 
-  // 3. STICKY NAVBAR & BACK TO TOP
+  // 3. STICKY NAVBAR, BACK TO TOP & ACTIVE NAV HIGHLIGHTER (Optimized to prevent frame drops)
   const navbar = document.getElementById('navbar');
   const backToTopBtn = document.getElementById('backToTop');
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
 
-  window.addEventListener('scroll', () => {
+  let isScrolling = false;
+
+  function onScroll() {
     const scrollY = window.scrollY;
+
     if (navbar) {
       if (scrollY > 40) {
         navbar.classList.add('scrolled');
@@ -612,6 +743,36 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         backToTopBtn.classList.remove('visible');
       }
+    }
+
+    // Active Section Highlight
+    let currentId = '';
+    const scrollMarker = scrollY + 140;
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      if (scrollMarker >= top && scrollMarker < top + height) {
+        currentId = section.getAttribute('id');
+      }
+    });
+
+    if (currentId) {
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === `#${currentId}`) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    isScrolling = false;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!isScrolling) {
+      window.requestAnimationFrame(onScroll);
+      isScrolling = true;
     }
   }, { passive: true });
 
@@ -662,27 +823,6 @@ document.addEventListener('DOMContentLoaded', () => {
       window.open(`https://wa.me/919449617670?text=${text}`, '_blank');
     });
   }
-
-  // 6. ACTIVE NAV HIGHLIGHTER ON SCROLL
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-link');
-
-  window.addEventListener('scroll', () => {
-    let currentId = '';
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 130;
-      const sectionHeight = section.clientHeight;
-      if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-        currentId = section.getAttribute('id');
-      }
-    });
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === `#${currentId}`) {
-        link.classList.add('active');
-      }
-    });
-  }, { passive: true });
 
   // 7. AWARDS PHOTO SLIDER CONTROLLER (Auto-slides every 6 seconds)
   function initAwardsSlider() {
